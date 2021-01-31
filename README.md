@@ -41,7 +41,7 @@ Agustarello is a reference point in Rome for both local customers and tourists a
 According to [research](https://restaurant.opentable.com/news/insider-information/heres-what-diners-do-online-before-they-eat-out-are-you-prepared/) commissioned 
 by **Opentable**, over 80% of potential customers visit a restaurant's website before deciding whether or not to go there. 
 On the data that emerged from the research and on my personal working experience I based the user stories.
-## User Stories
+## **User Stories**
   - **As a customer:**
     - I want to book a table by the restaurant website so I can check tha availabity of timing withouth calling the place
     - I want to check out a menu so I can see what kind of cuisine the restaurant is and how much is expensive
@@ -54,3 +54,37 @@ On the data that emerged from the research and on my personal working experience
     - I want to discourage phone calls so I can use my time otherways than answering phone calls.
     - I want to explain how to get to the restaurant, by public transport or car and where to park close to the restaurant so customers dosn't change their mind.
     - I want to introduce the history of the place and the type of traditional cuisine because I'm very proud of it.
+# Technologies Used
+## **Languages**
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+## **Frameworks, Libraries & Programs**
+- [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+   - Bootstrap is a free front-end framework used for responsiveness and styling.
+- [Hover.css:](https://ianlunn.github.io/Hover/)
+   - Hover.css was used for the followig effect...
+- [Google Fonts:](https://fonts.google.com/)
+   - Google fonts were used to import...
+- [Font Awesome:](https://fontawesome.com/)
+   - used for providing social media icons...
+- [jQuery:](https://jquery.com/)
+   - jQuery came with Bootstrap to make...
+- [Git:](https://git-scm.com/)
+   - Version Control.
+- [GitHub:](https://github.com/)
+   - Save the project online.
+- [GitPod:](https://gitpod.io/)
+   - Online IDE used with Code Institute Template.
+- [Balsamiq:](https://balsamiq.com/)
+   - Design the [wireframes](#).
+- [Gimp:](https://www.gimp.org/)
+   - Image Manipulation Program, used to edit photos.
+- [Am I Responsive?](http://ami.responsivedesign.is/)
+   - Check the responsiveness of the website.
+- [Coolors](https://coolors.co/)
+    - Color scheme generator.
+## **Other Resources**
+- [YouTube](https://www.Youtube.com)
+- [W3Schools](https://www.w3schools.com/) Online web tutorial
+- [Stack-Overlflow](https://stackoverflow.com/)
+- [CSS-Tricks](https://css-tricks.com/)
