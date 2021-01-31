@@ -3,9 +3,7 @@
 /*----------------------------------------------------Nav-bar*/
 
 .navbar{
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 20px 20px auto 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -18,3 +16,15 @@
     font-size: 3rem;
 }
 
+/*----------------------------------------------------Title*/
+.landing{
+    position: relative;
+}
+.main-title{
+    position: absolute;
+    height: 160px;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    margin: -80px 0 0 -150px;
+}
