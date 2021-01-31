@@ -9,11 +9,7 @@
 .navbar{
     margin: 0px 10px auto 10px;
     display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    height: 3rem;
+    justify-content: flex-end;
 }
 
 .menu-burg{
@@ -25,7 +21,8 @@
 .landing{
     position: relative;
     /*soluzione suggerita da spin.atomic.project*/
-    background-image: linear-gradient(rgba(95, 5, 5, 0.2), rgba(95, 5, 5, 0.2)), url("../images/hero.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/hero.jpg");
+
     background-color: #fff;
     background-position: center;
     background-size: cover;
@@ -34,17 +31,20 @@
 .main-title{
     position: absolute;
     height: 160px;
-    width: 300px;
+    width: 400px;
     left: 50%;
     top: 50%;
-    margin: -80px 0 0 -150px;
+    margin: -80px 0 0 -200px;
 }
 
 .title{
+    font-size: 50px;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(75, 1, 1);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 .subtitle{
