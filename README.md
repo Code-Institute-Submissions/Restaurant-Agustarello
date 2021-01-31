@@ -119,3 +119,8 @@ Images
 - [W3Schools](https://www.w3schools.com/) Online web tutorial
 - [Stack-Overlflow](https://stackoverflow.com/)
 - [CSS-Tricks](https://css-tricks.com/)
+
+## Project Barriers and solution
+FontAwesome: Non riuscivo a visualizzare le icone. Dopo diversi tentativi di cambiare CDN, cercare sul sito ufficiale o su blog
+sono riuscito a trovare la risposta che cercavo su Stack Overlflow. La versione di Fontawesome che ho utilizzato e' la 4 dove compare
+la classe e' "fa" invece di "fas" della versione 5 e successive.
