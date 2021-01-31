@@ -1,7 +1,10 @@
 
 
 /*----------------------------------------------------Nav-bar*/
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     margin: 20px 20px auto 20px;
     display: flex;
@@ -19,6 +22,12 @@
 /*----------------------------------------------------Title*/
 .landing{
     position: relative;
+    /*soluzione suggerita da spin.atomic.project*/
+    background-image: linear-gradient(rgba(95, 5, 5, 0.2), rgba(95, 5, 5, 0.2)), url("../images/hero.jpg");
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .main-title{
     position: absolute;

@@ -124,3 +124,5 @@ Images
 FontAwesome: Non riuscivo a visualizzare le icone. Dopo diversi tentativi di cambiare CDN, cercare sul sito ufficiale o su blog
 sono riuscito a trovare la risposta che cercavo su Stack Overlflow. La versione di Fontawesome che ho utilizzato e' la 4 dove compare
 la classe e' "fa" invece di "fas" della versione 5 e successive.
+
+ColorOverlay: effetto filtro su immagine di fondo. linear gradient uguale starting e ending point
