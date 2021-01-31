@@ -35,11 +35,12 @@ typical cuisine... But he had never had a website.
 
 # Description
 Agustarello is a family-run restaurant in the center of Rome. Its strengths are in the quality of the food and in the rustic and welcoming environment. 
-Agustarello is a reference point in Rome for both local customers and tourists and for all those who want to experience the atmosphere of an authentic Roman *trattoria*.
+Agustarello is a reference point in Rome for both local customers and tourists and for all those who want to experience the atmosphere of an authentic Roman 
+*trattoria*.
 
 # UX
-According to [research](https://restaurant.opentable.com/news/insider-information/heres-what-diners-do-online-before-they-eat-out-are-you-prepared/) commissioned 
-by **Opentable**, over 80% of potential customers visit a restaurant's website before deciding whether or not to go there. 
+According to [research](https://restaurant.opentable.com/news/insider-information/heres-what-diners-do-online-before-they-eat-out-are-you-prepared/) 
+commissioned by **Opentable**, over 80% of potential customers visit a restaurant's website before deciding whether or not to go there. 
 On the data that emerged from the research and on my personal working experience I based the user stories.
 ## **User Stories**
   - **As a customer:**
@@ -54,6 +55,36 @@ On the data that emerged from the research and on my personal working experience
     - I want to discourage phone calls so I can use my time otherways than answering phone calls.
     - I want to explain how to get to the restaurant, by public transport or car and where to park close to the restaurant so customers dosn't change their mind.
     - I want to introduce the history of the place and the type of traditional cuisine because I'm very proud of it.
+## **Strategy**
+The website was designed to meet the needs of the owner and the consumers. The main purpose is to increase the online presence of the business which allows 
+potential customers to obtain information about the restaurant. The owner wanted to manage his online presence directly and not only through review sites 
+or search engines. 
+## **Scope**
+The website wants to be a showcase of the restaurant. The visitor can get all the information he wants to get an idea and avoid contacting the owner directly 
+for anything other than booking a table. 
+A feature that is not present but that must be implemented in the future will be that of being able to make reservations through the website.
+## **Structure**
+The structure of the site is a prevalence of images over text. Very short paragraphs and captivating images of the dishes on the menu. A lot of attention
+the other social profiles will be provided with the map of the area and the way to reach the restaurant.
+## **Skeleton**
+Scrolling website with four main section: HOME - OUR STORY - MENU - CONTACT
+
+Wireframes:
+- [Desktop](./assets/wireframes/desktop-wireframes.png)
+- [Tablet](./assets/wireframes/tablet-wireframes.png)
+- [Mobile](./assets/wireframes/mobile-wireframes.png)
+
+In the mobile and tablet version there is a fifth page, a full-screen navigation menu that user can access from a *burger* icon.
+- [Menu Tablet](./assets/wireframes/menu-tablet.png)
+- [Menu Mobile](./assets/wireframes/menu-mobile.png)
+
+In the desktop version ther is a fixed navigation bar on top:
+- [Menu Desktop](./assets/wireframes/menu-desktop.png)
+## **Surface**
+color palette
+Typography
+Images
+
 # Technologies Used
 ## **Languages**
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
