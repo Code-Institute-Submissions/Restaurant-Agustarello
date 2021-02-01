@@ -126,3 +126,8 @@ sono riuscito a trovare la risposta che cercavo su Stack Overlflow. La versione 
 la classe e' "fa" invece di "fas" della versione 5 e successive.
 
 ColorOverlay: effetto filtro su immagine di fondo. linear gradient uguale starting e ending point
+
+NAVbar. prima costruito navbar con logo a sinistra e burger icon a destra usando flexbox space between property. Poi ho visto che non mi piaceva il logo 
+preferivo lasciare solo la burger icon per il menu. Ma nel momento in cui ho tolto il logo la burger icon si e' spostata a sinistra mentre la volevo sulla
+destra. Ho risolto leggendo la documentazione bootstrap sulle navbar. Cancellato il flexbox nel CSS e usato le classi bootstrap per la creazione di una 
+navbar non visibile su mobile ma solo il burger icon per il menu che poi si espande nelle versioni desktop.
