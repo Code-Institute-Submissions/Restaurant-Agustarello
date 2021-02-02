@@ -41,7 +41,7 @@ body{
 .landing{
     position: relative;
     /*soluzione suggerita da spin.atomic.project*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/hero.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3)), url("../images/hero.jpg");
 
     background-color: #fff;
     background-position: center;
@@ -55,6 +55,7 @@ body{
     left: 50%;
     top: 50%;
     margin: -80px 0 0 -200px;
+    text-shadow: 1px 1px #fff;
 }
 
 
@@ -65,18 +66,33 @@ body{
     font-weight: 600;
     color: rgb(75, 1, 1);
     letter-spacing: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     /*presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
-    animation: fadein 2s ease-in;
-    -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s ease-in; /* Firefox < 16 */
-    -ms-animation: fadein 2s ease-in; /* Internet Explorer */
-    -o-animation: fadein 2s ease-in; /* Opera < 12.1 */
+    animation: fadein 1s ease-in;
+    -webkit-animation: fadein 1s ease-in; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s ease-in; /* Firefox < 16 */
+    -ms-animation: fadein 1s ease-in; /* Internet Explorer */
+    -o-animation: fadein 1s ease-in; /* Opera < 12.1 */
 }
 
 .subtitle{
     font-family: 'Bentham', cursive;
     color: rgb(75, 1, 1);
+}
+h2.subtitle{
+    margin-bottom: 0;
+    animation: fadein 3s ease-in;
+    -webkit-animation: fadein 3s ease-in; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s ease-in; /* Firefox < 16 */
+    -ms-animation: fadein 3s ease-in; /* Internet Explorer */
+    -o-animation: fadein 3s ease-in; /* Opera < 12.1 */
+}
+h3.subtitle {
+    margin-top: 5rem;
+}
+
+h3 span{
+    font-size: 3rem;
 }
 
 /*----------------------------------------------------Photo-1*/
