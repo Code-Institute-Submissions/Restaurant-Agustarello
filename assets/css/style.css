@@ -6,8 +6,8 @@
     margin: 0;
     padding: 0;
 }
+
 body{
-    height: 800vh;
     font-family: 'Bentham', cursive;
 }
 .menu-burg{
@@ -16,6 +16,7 @@ body{
 }
 #navbarMenu{
     background-color: rgb(75, 1, 1);
+    position: relative;
 }
 #menu-link h4{
     margin-top: 4rem;

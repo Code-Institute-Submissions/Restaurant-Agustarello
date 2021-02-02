@@ -131,3 +131,7 @@ NAVbar. prima costruito navbar con logo a sinistra e burger icon a destra usando
 preferivo lasciare solo la burger icon per il menu. Ma nel momento in cui ho tolto il logo la burger icon si e' spostata a sinistra mentre la volevo sulla
 destra. Ho risolto leggendo la documentazione bootstrap sulle navbar. Cancellato il flexbox nel CSS e usato le classi bootstrap per la creazione di una 
 navbar non visibile su mobile ma solo il burger icon per il menu che poi si espande nelle versioni desktop.
+
+Navbar2: Il testo della home page continuava a comparire al disotto della navbar quando era aperta sovrapponendosi ai link.
+Dopo aver provato senza successo modificando lo z-index(soluzione trovata su stackoverlow) sono riuscito a risolvere grazie
+aall'aggiunta di un div element con position fixed-top. Soluzione presa da Navbar external content su Bootstrap doc
