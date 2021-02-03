@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bentham&family=Poiret+One&display=swap');
 
-/*----------------------------------------------------Nav-bar*/
-
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +8,14 @@
 body{
     font-family: 'Bentham', cursive;
 }
+/*----------------------------------------------------Nav-bar*/
+
 .menu-burg{
     font-size: 3rem;
     color: rgb(75, 1, 1);
     text-shadow:4px 4px #C5C5A3;
 }
+/*----------------------------------------------------Collapse-menu*/
 #navbarMenu{
     background-color: rgb(75, 1, 1);
     position: relative;
@@ -27,23 +28,15 @@ body{
     color: #C5C5A3;
 }
 
-/* Underline From Left from Hover.css */
-.hvr-underline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
 
-}
+
+
 /*----------------------------------------------------Title*/
 .landing{
     position: relative;
     /*soluzione suggerita da spin.atomic.project*/
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/landing-pasta.jpg");
-
+    
     background-color: #fff;
     background-position: center;
     background-size: cover;
@@ -61,7 +54,7 @@ body{
 
 
 .title{
-    font-size: 50px;
+    font-size: 3rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 600;
@@ -111,16 +104,33 @@ h3 span{
     margin-top: 5rem;
 }
 #ourstory h2{
-    font-family: 'Poiret One', cursive;
     font-size: 3rem;
-    color: #fff;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4b0101;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
 }
 #ourstory p{
-    font-size: 2rem;
-    color:#fff
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow: 2px 2px #4b0101;
 }
 /*----------------------------------------------------Animation
-presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
+
+/* Underline From Left from Hover.css */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+
+/*presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
 
 @keyframes fadein {
     from { opacity: 0; }
