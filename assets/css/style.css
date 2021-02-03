@@ -13,6 +13,7 @@ body{
 .menu-burg{
     font-size: 3rem;
     color: rgb(75, 1, 1);
+    text-shadow:4px 4px #C5C5A3;
 }
 #navbarMenu{
     background-color: rgb(75, 1, 1);
@@ -23,7 +24,7 @@ body{
     margin-bottom: 4rem;
     font-size: 2rem;
     text-decoration: none;
-    color: #fff;
+    color: #C5C5A3;
 }
 
 /* Underline From Left from Hover.css */
@@ -41,7 +42,7 @@ body{
 .landing{
     position: relative;
     /*soluzione suggerita da spin.atomic.project*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3)), url("../images/hero.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/landing-pasta.jpg");
 
     background-color: #fff;
     background-position: center;
@@ -55,7 +56,7 @@ body{
     left: 50%;
     top: 50%;
     margin: -80px 0 0 -200px;
-    text-shadow: 1px 1px #fff;
+    text-shadow: 2px 2px #fff;
 }
 
 
@@ -95,12 +96,29 @@ h3 span{
     font-size: 3rem;
 }
 
-/*----------------------------------------------------Photo-1*/
-.gallery-1{
-    width: 100%;
-    height: 50vh;
+/*----------------------------------------------------Our Story section*/
+#ourstory{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/rigatoni-pajata.jpg");
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
 }
 
+#paragraph{
+    margin-top: 5rem;
+}
+#ourstory h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 3rem;
+    color: #fff;
+}
+#ourstory p{
+    font-size: 2rem;
+    color:#fff
+}
 /*----------------------------------------------------Animation
 presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
 
