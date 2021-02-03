@@ -73,13 +73,22 @@ p {
   margin-bottom: 1.25rem;
 }
 
-section {
+.photo {
     background-color: #fff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
     height: 100vh;
+}
+
+.photo-50 {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 50vh;
 }
 /*
 ============================================= 
@@ -135,7 +144,7 @@ Home
 #home {
     position: relative;
     /*soluzione suggerita da spin.atomic.project*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/landing-pasta.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/IMG_20180503_193003-min.jpg");
 }
 
 /*Soluzione per centrare verticalmente il titolo*/
@@ -204,13 +213,7 @@ Header
 =============================================
 */
 #ourstory{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/rigatoni-pajata.jpg");
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/mura-def.jpg");
 }
 
 #paragraph{
@@ -234,6 +237,17 @@ Header
     text-shadow: 2px 2px var(--clr-primary);
 }
 
+#old-picture{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/old-picure.jpg");
+}
+
+#food-item-1{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/menu2-min.jpg");
+}
+
+#food-item-2{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/menu3-min.jpg");
+}
 /*
 =============================================
 "Contact"
