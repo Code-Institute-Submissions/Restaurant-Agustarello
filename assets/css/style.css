@@ -14,10 +14,10 @@ Variables
 */
 :root {
     --clr-primary: #4B0101;
-    --clr-secondary: #FFE66D;
+    --clr-secondary: #F8E793;
     --clr-tertiary: #018E42;
     --clr-grey: #93827F;
-    --ff-title: "Poiret", cursive;
+    --ff-title: "Poiret One", cursive;
     --ff-paragraph: "Bentham", cursive;
     --spacing: 0.25rem;
 }
@@ -49,14 +49,16 @@ a {
 h1,
 h2,
 h3,
-h4 {
+h4 {  
+  font-family: var(--ff-title);
   letter-spacing: var(--spacing);
-  text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  font-weight: 600;
 }
 h1 {
   font-size: 3rem;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 2rem;
@@ -130,10 +132,10 @@ Animation
 Home
 =============================================
 */
-.landing {
+#home {
     position: relative;
     /*soluzione suggerita da spin.atomic.project*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/landing-pasta.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/landing-pasta.jpg");
 }
 
 /*Soluzione per centrare verticalmente il titolo*/
@@ -142,19 +144,13 @@ Home
     height: 160px;
     width: 400px;
     left: 50%;
-    top: 50%;
+    top: 40%;
     margin: -80px 0 0 -200px;
-    text-shadow: 2px 2px #fff;
+    text-shadow: 4px 4px var(--clr-grey);
 }
 
-.title {
-    font-size: 3rem;
-    font-family: 'Poiret One', cursive;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--clr-primary);
-    letter-spacing: 3px;
-    margin-bottom: 5px;
+.title-contenitor h1  {
+    margin-bottom: var(--spacing);
     /*presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
     animation: fadein 1s ease-in;
     -webkit-animation: fadein 1s ease-in; /* Safari, Chrome and Opera > 12.1 */
@@ -163,11 +159,7 @@ Home
     -o-animation: fadein 1s ease-in; /* Opera < 12.1 */
 }
 
-.subtitle {
-    font-family: 'Bentham', cursive;
-    color: var(--clr-primary);
-}
-h2.subtitle {
+.title-contenitor h2 {
     margin-bottom: 0;
     animation: fadein 3s ease-in;
     -webkit-animation: fadein 3s ease-in; /* Safari, Chrome and Opera > 12.1 */
@@ -175,13 +167,15 @@ h2.subtitle {
     -ms-animation: fadein 3s ease-in; /* Internet Explorer */
     -o-animation: fadein 3s ease-in; /* Opera < 12.1 */
 }
-h3.subtitle {
+
+.title-contenitor h3 {
     margin-top: 5rem;
 }
 
-h3 span {
-    font-size: 3rem;
+.title-contenitor span {
+    font-size: 2.5rem;
 }
+
 /*
 =============================================
 Header
@@ -190,7 +184,7 @@ Header
 .menu-burg{
     font-size: 3rem;
     color: var(--clr-primary);
-    text-shadow:4px 4px var(--clr-grey);
+    text-shadow:4px 4px var(--clr-secondary);
 }
 
 #navbarMenu{
@@ -198,14 +192,11 @@ Header
     position: relative;
 }
 
-#menu-link h4{
+#menu-link h2{
     margin-top: 4rem;
     margin-bottom: 4rem;
-    font-size: 2rem;
-    color: var(--clr-grey);
+    color: var(--clr-secondary);
 }
-
-
 
 /*
 =============================================
@@ -232,7 +223,7 @@ Header
     text-transform: uppercase;
     font-weight: 600;
     color: var(--clr-primary);
-    letter-spacing: 3px;
+    letter-spacing: var(--spacing);
     margin-bottom: 30px;
     text-shadow: 2px 2px #fff;
 }
