@@ -135,3 +135,8 @@ navbar non visibile su mobile ma solo il burger icon per il menu che poi si espa
 Navbar2: Il testo della home page continuava a comparire al disotto della navbar quando era aperta sovrapponendosi ai link.
 Dopo aver provato senza successo modificando lo z-index(soluzione trovata su stackoverlow) sono riuscito a risolvere grazie
 aall'aggiunta di un div element con position fixed-top. Soluzione presa da Navbar external content su Bootstrap doc
+
+/*white space on the side and the bottom in different smartphone on devtools*/
+html, body{
+    overflow: hidden;
+}
