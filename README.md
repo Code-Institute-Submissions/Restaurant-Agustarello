@@ -121,22 +121,28 @@ Images
 - [CSS-Tricks](https://css-tricks.com/)
 
 ## Project Barriers and solution
-FontAwesome: Non riuscivo a visualizzare le icone. Dopo diversi tentativi di cambiare CDN, cercare sul sito ufficiale o su blog
-sono riuscito a trovare la risposta che cercavo su Stack Overlflow. La versione di Fontawesome che ho utilizzato e' la 4 dove compare
-la classe e' "fa" invece di "fas" della versione 5 e successive.
+FontAwesome Icon: I was unable to see the icons I placed in the code. I tried to change the CDN, to look for an answer on the official site of FontAwesome or through the blogs that dealt with the subject I found out where I was wrong thanks to StackOverflow. I used the "fas" class copied from the official site which refers to version 5. Instead, I used version 4 for my project. I then changed the class name from "fas" to "fa".
 
-ColorOverlay: effetto filtro su immagine di fondo. linear gradient uguale starting e ending point
+How to overlay an image with color: I wanted to create a color transparency effect on the photographs that I used as a background. I didn't remember exactly how to do it even though I was sure it was quite simple. I found the answer thanks to an article on atomic-project.com using linear-gradient.
 
-NAVbar. prima costruito navbar con logo a sinistra e burger icon a destra usando flexbox space between property. Poi ho visto che non mi piaceva il logo 
-preferivo lasciare solo la burger icon per il menu. Ma nel momento in cui ho tolto il logo la burger icon si e' spostata a sinistra mentre la volevo sulla
-destra. Ho risolto leggendo la documentazione bootstrap sulle navbar. Cancellato il flexbox nel CSS e usato le classi bootstrap per la creazione di una 
-navbar non visibile su mobile ma solo il burger icon per il menu che poi si espande nelle versioni desktop.
+Navbar1: first I built a navigation bar with a logo on the left and a hamburger icon on the right using flexbox's space between files property. So since I didn't like the logo, I removed it and I preferred to leave only the hamburger icon for the menu. But the moment I removed the logo, the hamburger icon moved to the left while it was my intention to keep it to the right. I solved it by reading the documentation on the official bootstrap site in the "navbar" section. I eliminated the flexbox code in the CSS and used the bootstrap classes to create a hamburger icon menu on mobile which then expands into a navigation bar visible in the desktop versions.
+I used flex-row-reverse to keep the burger icon on the right.
+Very useful, in addition to the official documentation, the examples section proved to be very useful, where through google devtools I could directly read the code used in creating the navbar and the structure of the compression menu.
+https://getbootstrap.com/docs/4.6/examples/album/ - Album example.
+https://getbootstrap.com/docs/4.6/examples/navbar-fixed/ - Fixed-Top Navbar example.
 
-Navbar2: Il testo della home page continuava a comparire al disotto della navbar quando era aperta sovrapponendosi ai link.
-Dopo aver provato senza successo modificando lo z-index(soluzione trovata su stackoverlow) sono riuscito a risolvere grazie
-aall'aggiunta di un div element con position fixed-top. Soluzione presa da Navbar external content su Bootstrap doc
+White vertical margin on mobile view under 375px.
+To vertically center the main title I used css position-absolute by moving the element to the center of the page. To do this I had to assign a container element that had the exact size. I created a div with 400px wide. 
+I began to notice in DevTools that in some mobile views I could see a vertical white stripe that modified the page layout. It was difficult to find the right terms to find an answer on google. 
+I found several different solutions: some suggested that the problem was in the "viewport" within <head>. Another stack-overflow contribution suggested the following solution:
 
-/*white space on the side and the bottom in different smartphone on devtools*/
-html, body{
+html, body {
     overflow: hidden;
 }
+
+Even this solution did not solve the problem.
+Eventually, I found a solution again thanks to StackOverflow:
+https://stackoverflow.com/questions/57100205/strange-white-bar-appearing-on-some-mobile-devices/57103751
+It was the 400px wide div that caused the bug on smaller width media mobile. 
+
+Center the title vertically. Given the bug, I wanted to find a workaround to center the main title. Using the Bootstrap grid I found a rather simple solution to use instead of the one that caused the bug. 
