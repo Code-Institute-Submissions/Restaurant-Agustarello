@@ -146,3 +146,7 @@ https://stackoverflow.com/questions/57100205/strange-white-bar-appearing-on-some
 It was the 400px wide div that caused the bug on smaller width media mobile. 
 
 Center the title vertically. Given the bug, I wanted to find a workaround to center the main title. Using the Bootstrap grid I found a rather simple solution to use instead of the one that caused the bug. 
+
+
+Hide collapsible navbar on click on links. After finishing the expandable navigation bar I realized that the only way to close it was to click on the hamburger icon again, definitely a bad user experience. So I was able to find a way to collapse the navigation bar after clicking on one of the links that didn't use javascript.
+https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click

@@ -14,7 +14,7 @@
             <!-- The navbar structur with button come from here: 
                 https://getbootstrap.com/docs/4.6/examples/album/-->
             <nav class="navbar navbar-expand-lg fixed-top flex-row-reverse">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- Font Awesome icon bug
                         https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
                     <i class="menu-burg fa fa-bars"></i>
@@ -22,11 +22,13 @@
                 <div class="fixed-top">
                     <div class="collapse navbar-collapse" id="navbarMenu">
                         <ul class="text-center navbar-nav mr-auto">
-                                <li class="nav-item"><a href="#home">Home</a></li>
-                                <li class="nav-item"><a href="#ourstory">Our Story</a></li>
-                                <li class="nav-item"><a href="#menu">Menu</a></li>
-                                <li class="nav-item"><a href="#contact">Contact</a></li>
-                                <li class="nav-item"><a href="#">IT</a></li>
+                                <!--Hide navbar after click on link without javascript
+                                    https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click-->
+                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#home">Home</a></li>
+                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#ourstory">Our Story</a></li>
+                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#ourmenu">Menu</a></li>
+                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#contact">Contact</a></li>
+                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#">IT</a></li>
                         </ul>
                     </div>
                 </div>
