@@ -42,6 +42,11 @@ body {
   font-size: 1.6rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -99,21 +104,20 @@ p {
     max-width: 100%;
     height: 50vh;
 }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.25);
+}
 /*
 ============================================= 
 Animation
 =============================================
-*/
-/* Underline From Left from Hover.css */
-.hvr-underline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-}
+
 /*presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
 
 @keyframes fadein {
@@ -151,8 +155,23 @@ Home
 =============================================
 */
 #home {
-    /*linear gradient idea from this article: https://spin.atomicobject.com/2015/04/07/css-multiple-backgrounds/*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/cacio_e_pepe_mod.jpg");
+  height: 100vh;
+  /*linear gradient idea from this article: https://spin.atomicobject.com/2015/04/07/css-multiple-backgrounds/*/
+
+  background: url('../images/hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.jumbotron {
+  background-color: transparent;
 }
 
 
@@ -175,62 +194,30 @@ Home
     -o-animation: fadein 3s ease-in; /* Opera < 12.1 */
 }
 
-#home h3 {
-    margin-top: 5rem;
-}
-
 #home span {
-    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 /*
 =============================================
-Header
+Navbar
 =============================================
 */
-.navbar-toggler{
-    z-index: 9999
-}
-.menu-burg{
-    font-size: 3rem;
-    color: var(--clr-primary);
-    text-shadow:4px 4px var(--clr-secondary);
+.menu-burg {
+  font-size: 3rem;
+  color: var(--clr-secondary);
 }
 
-#navbarMenu{
-    background-color: var(--clr-primary);
+.navbar {
+  background-color: var(--clr-primary);
 }
 
-#navbarMenu ul{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.nav-item a {
+  color: var(--clr-secondary);
 }
 
-.nav-item a{
-        text-decoration: none;
-        color: var(--clr-secondary);
-}
  
 @media screen and (min-width: 769px) {
-    #navbarMenu ul {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .fixed-top{
-        position: absolute;
-        top:70%;
-    }
-    #navbarMenu{
-        background-color: transparent;
-    }
-    .nav-item a{
-        color: var(--clr-primary);
-}
 }
 /*
 =============================================

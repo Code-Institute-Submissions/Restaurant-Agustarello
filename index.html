@@ -9,44 +9,53 @@
     <title>Restaurant Agustarello</title>
 </head>
 <body>
-    <section class="photo-100" id="home">
         <header>
             <!-- The navbar structur with button come from here: 
                 https://getbootstrap.com/docs/4.6/examples/album/-->
-            <nav class="navbar navbar-expand-lg fixed-top flex-row-reverse">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                    <!-- Font Awesome icon bug
-                        https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
-                    <i class="menu-burg fa fa-bars"></i>
-                </button>
-                <div class="fixed-top">
-                    <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="container-fluid">
+                <nav class="navbar fixed-top navbar-expand-lg">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"         data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- Font Awesome icon bug
+                            https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
+                        <i class="menu-burg fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="text-center navbar-nav mr-auto">
                                 <!--Hide navbar after click on link without javascript
                                     https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click-->
-                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#home">Home</a></li>
-                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#ourstory">Our Story</a></li>
-                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#ourmenu">Menu</a></li>
-                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#contact">Contact</a></li>
-                                <li class="nav-item" data-target="#navbarMenu" data-toggle="collapse"><a href="#">IT</a></li>
+                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                                <a class="nav-link scroll" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                                <a class="nav-link scroll" href="#ourstory">Our Story</a>
+                            </li>
+                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                                <a class="nav-link scroll" href="#ourmenu">Menu</a>
+                            </li>
+                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                                <a class="nav-link scroll" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                                <a class="nav-link scroll" href="#">IT</a>
+                            </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
         <!-- Simple explanation about vertical alignment an element with bootstrap:
         https://www.tutorialrepublic.com/faq/how-to-vertical-align-a-div-in-bootstrap.php#:~:text=Answer%3A%20Use%20the%20align%2Ditems,center%20on%20the%20containing%20element.-->
-        <div class="container">
-            <div class="row align-items-center vh-100">
-                <div class="col-12 text-center">
-                    <h1>agustarello</h1>
-                    <h2>a</h2>
-                    <h2>Testaccio</h2>
-                    <h3>since <span>1957</span></h3>
+        <div class="container-fluid text-center" id="home">
+        <div class="opaque-overlay"></div>
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <section class="jumbotron">
+                        <h1 class="h-jumbotron">agustarello</h1>
+                        <h2 class="lead">a Testaccio since <span>1957</span></h2>
+                    </section>
                 </div>
             </div>
         </div>
-    </section>
     <div class="photo-75" id="old-picture"></div>
     <section class="photo-75" id="ourstory">
         <div class="container">
