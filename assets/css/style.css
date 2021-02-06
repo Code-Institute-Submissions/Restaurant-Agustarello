@@ -212,22 +212,25 @@ Header
         text-decoration: none;
         color: var(--clr-secondary);
 }
-
+ 
 @media screen and (min-width: 769px) {
-    .fixed-top{
-        position: relative;
-    }
-    #navbarMenu{
-        background-color: transparent;
-    }
-    #navbarMenu ul{
+    #navbarMenu ul {
+        width: 100vw;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+    .fixed-top{
+        position: absolute;
+        top:70%;
+    }
+    #navbarMenu{
+        background-color: transparent;
+    }
     .nav-item a{
         color: var(--clr-primary);
-    }
+}
 }
 /*
 =============================================
