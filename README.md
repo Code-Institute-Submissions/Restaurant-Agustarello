@@ -152,3 +152,5 @@ Hide collapsible navbar on click on links. After finishing the expandable naviga
 https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
 
 Usando classi di bootstrap ho notato che se usavo *{margin:0 padding:0} col-12 era fuori dagli schermi mobile in quanto width 100% plus 15px di margin per lato. Lasciano solo box-sizing:border-box il problema era risolto
+
+Logo e menu nella navbar allineato uno a fianco all'altro

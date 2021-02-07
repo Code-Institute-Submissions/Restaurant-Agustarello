@@ -112,6 +112,17 @@ p {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.25);
 }
+
+/*--------------------------------------------------------------------- Links */
+
+
+a:hover,
+a:active,
+a:focus,
+a:active:focus {
+    text-decoration: none;
+    color: var(--clr-secondary)
+}
 /*
 ============================================= 
 Animation
@@ -203,7 +214,7 @@ Navbar
 =============================================
 */
 .menu-burg {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--clr-secondary);
 }
 
@@ -215,8 +226,13 @@ Navbar
   color: var(--clr-secondary);
 }
 
- 
-@media screen and (min-width: 769px) {
+.logo{
+    font-family: var(--ff-paragraph);
+    color: var(--clr-secondary);
+    text-transform: capitalize;
+
+    border: 2px solid var(--clr-secondary);
+    padding: 0 3px 0 3px;
 }
 /*
 =============================================
