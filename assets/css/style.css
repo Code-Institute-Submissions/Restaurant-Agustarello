@@ -19,7 +19,6 @@ Variables
     --clr-grey: #93827F;
     --ff-title: "Poiret One", cursive;
     --ff-paragraph: "Bentham", cursive;
-    --spacing: 0.25rem;
 }
 
 /*
@@ -29,17 +28,17 @@ Global CSS
 */
 /*reset proprieties - CSS Tricks*/
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-paragraph);
   background: var(--clr-white);
   color: var(--clr-primary);
   line-height: 1.5;
   font-size: 1.6rem;
+  letter-spacing: 3px;
+
 }
 
 html {

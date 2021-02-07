@@ -150,3 +150,5 @@ Center the title vertically. Given the bug, I wanted to find a workaround to cen
 
 Hide collapsible navbar on click on links. After finishing the expandable navigation bar I realized that the only way to close it was to click on the hamburger icon again, definitely a bad user experience. So I was able to find a way to collapse the navigation bar after clicking on one of the links that didn't use javascript.
 https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+
+Usando classi di bootstrap ho notato che se usavo *{margin:0 padding:0} col-12 era fuori dagli schermi mobile in quanto width 100% plus 15px di margin per lato. Lasciano solo box-sizing:border-box il problema era risolto
