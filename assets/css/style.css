@@ -32,17 +32,24 @@ Global CSS
 }
 
 body {
-  font-family: var(--ff-paragraph);
-  background: var(--clr-white);
-  color: var(--clr-primary);
-  line-height: 1.5;
-  font-size: 1.6rem;
-  letter-spacing: 3px;
+    font-family: var(--ff-paragraph);
+    background: var(--clr-white);
+    color: var(--clr-primary);
+    line-height: 1.5;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+
+    /*margin-bottom by footer height*/
+    margin-bottom: 120px;
 
 }
 
 html {
   scroll-behavior: smooth;
+
+  /*solution for footer stick on the bottom*/
+  min-height: 100%;
+  position: relative;
 }
 
 
@@ -231,7 +238,7 @@ Navbar
     color: var(--clr-secondary);
     text-transform: capitalize;
 
-    border: 2px solid var(--clr-secondary);
+    border: 1px solid var(--clr-secondary);
     padding: 0 3px 0 3px;
 }
 /*
@@ -313,6 +320,23 @@ Navbar
 "Footer"
 =============================================
 */
+
+.footer {
+  background-color: var(--clr-secondary);
+  color: var(--clr-primary);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  font-size: 0.4rem;
+  /* padding: 10px 5px; */
+}
+
+.footer-social-icon{
+    color: var(--clr-primary);
+    font-size: 1rem;
+    /* margin-right: 1rem; */
+}
 /*
 =============================================
 "IT"

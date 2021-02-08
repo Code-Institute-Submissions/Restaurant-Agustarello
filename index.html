@@ -17,16 +17,16 @@
                         <a class="navbar-brand logo" href="#home">
                         agustarello
                         </a>
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <!-- Font Awesome icon bug
                             https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
                             <span class="navbar-toggler-icon"><i class="menu-burg fa fa-bars"></i></span>
                         </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="text-center navbar-nav mr-auto">
+                        <ul class="text-center navbar-nav ml-auto">
                                 <!--Hide navbar after click on link without javascript
                                     https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click-->
-                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                            <li class="nav-item mr-2" data-target="#navbarNavDropdown" data-toggle="collapse">
                                 <a class="nav-link scroll" href="#home">Home</a>
                             </li>
                             <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
@@ -107,9 +107,26 @@
     <section id="contact">
 
     </section>
-    <footer>
-
-    </footer>
+    <!-- ripreso da example bootstrap official site -->
+        <footer class="footer">
+            <div class="container text-uppercase text-center">
+                <p>
+                    <a href="https://www.facebook.com/agustarellodal1957" target="_blank" aria-label="follow us on facebook">
+                        <i class="footer-social-icon fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/agustarello_testaccio/" target="_blank" aria-label="follow us on instagram">
+                        <i class="footer-social-icon fa fa-instagram"></i>
+                    </a>
+                </p>
+                <p>
+                    Ristorante "Agustarello a Testaccio dal 1957" di Alessandro Commentucci
+                    Tel. +39/065746585 - email: commentucci@libero.it
+                </p>
+                <p>
+                    ©2021 - Alessandro Maria Commentucci
+                </p>
+            </div>
+        </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
