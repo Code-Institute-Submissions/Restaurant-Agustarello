@@ -15,7 +15,7 @@ Variables
 :root {
     --clr-primary: #4B0101;
     --clr-secondary: #F8E793;
-    --clr-tertiary: #018E42;
+    --clr-tertiary: rgb(2, 70, 34);
     --clr-grey: #93827F;
     --ff-title: "Poiret One", cursive;
     --ff-paragraph: "Bentham", cursive;
@@ -123,7 +123,7 @@ p {
 
 /*--------------------------------------------------------------------- Links */
 
-
+a,
 a:hover,
 a:active,
 a:focus,
@@ -306,13 +306,41 @@ Navbar
 =============================================
 */
 #contact{
-    height: 100vh;
     background-color: var(--clr-primary);
+
+    font-size: 0.75rem;
+    color: var(--clr-secondary);
 }
 
+#contact p span{
+    text-transform: uppercase;
+}
 
+#contact hr{
+    border: solid 1px;
+    color: var(--clr-secondary);
+}
 
+.social-links{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
 
+.social-links li{
+    display: inline;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+#contact .direction{
+    padding-top: 10px;
+}
+
+.map{
+    height: 50vh;
+    width: auto;
+}
 /*
 =============================================
 "Footer"
@@ -327,13 +355,13 @@ Navbar
   width: 100%;
   height: 120px;
   font-size: 0.4rem;
-  /* padding: 10px 5px; */
+  padding: 10px 5px;
 }
 
 .footer-social-icon{
     color: var(--clr-primary);
     font-size: 1rem;
-    /* margin-right: 1rem; */
+    margin-right: 1rem;
 }
 /*
 =============================================
