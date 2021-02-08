@@ -73,6 +73,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+    text-transform: uppercase;
 }
 h3 {
   font-size: 1.5rem;
@@ -243,23 +244,21 @@ Navbar
 }
 /*
 =============================================
-"Our History"
+"Our Story"
 =============================================
 */
 #ourstory{
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/porticus_aemilia_wall.jpg");
 }
 
-.paragraph{
-    margin-top: 5rem;
+.text-overlay{
+    margin-top: 2rem;
 }
 
+.text-overlay span{
+    font-style: italic;
+}
 #ourstory h2{
-    font-size: 3rem;
-    font-family: 'Poiret One', cursive;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--clr-primary);
     letter-spacing: var(--spacing);
     margin-bottom: 30px;
     text-shadow: 2px 2px #fff;
@@ -267,8 +266,6 @@ Navbar
 
 #ourstory p{
     font-size: 1.6rem;
-    color: #fff;
-    text-shadow: 2px 2px var(--clr-primary);
 }
 
 #old-picture{
@@ -277,6 +274,7 @@ Navbar
 
 #food-item-1{
     background-image: url("../images/tripe.jpg");
+    background-attachment: fixed;
 }
 
 #food-item-2{
