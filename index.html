@@ -9,46 +9,47 @@
     <title>Restaurant Agustarello</title>
 </head>
 <body>
-        <header>
-            <!-- The navbar structur with button come from here: 
+    <header>
+        <!-- The navbar structur with button come from here: 
                 https://getbootstrap.com/docs/4.6/examples/album/-->
-            <div class="container-fluid">
-                <nav class="navbar fixed-top navbar-expand-lg">
-                        <a class="navbar-brand logo" href="#home">
+        <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <a class="navbar-brand logo" href="#home">
                         agustarello
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <!-- Font Awesome icon bug
-                            https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
-                            <span class="navbar-toggler-icon"><i class="menu-burg fa fa-bars"></i></span>
-                        </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="text-center navbar-nav ml-auto">
-                                <!--Hide navbar after click on link without javascript
-                                    https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click-->
-                            <li class="nav-item mr-2" data-target="#navbarNavDropdown" data-toggle="collapse">
-                                <a class="nav-link scroll" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
-                                <a class="nav-link scroll" href="#ourstory">Our Story</a>
-                            </li>
-                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
-                                <a class="nav-link scroll" href="#ourmenu">Menu</a>
-                            </li>
-                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
-                                <a class="nav-link scroll" href="#contact">Contact</a>
-                            </li>
-                            <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
-                                <a class="nav-link scroll" href="#">IT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Font Awesome icon bug
+                    https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
+                    <span class="navbar-toggler-icon"><i class="menu-burg fa fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="text-center navbar-nav ml-auto">
+                        <!--Hide navbar after click on link without javascript
+                        https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click-->
+                        <li class="nav-item mr-2" data-target="#navbarNavDropdown" data-toggle="collapse">
+                            <a class="nav-link scroll" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                            <a class="nav-link scroll" href="#ourstory">Our Story</a>
+                        </li>
+                        <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                            <a class="nav-link scroll" href="#ourmenu">Menu</a>
+                        </li>
+                        <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                            <a class="nav-link scroll" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item" data-target="#navbarNavDropdown" data-toggle="collapse">
+                            <a class="nav-link scroll" href="#">IT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Home -->
         <!-- Simple explanation about vertical alignment an element with bootstrap:
         https://www.tutorialrepublic.com/faq/how-to-vertical-align-a-div-in-bootstrap.php#:~:text=Answer%3A%20Use%20the%20align%2Ditems,center%20on%20the%20containing%20element.-->
-        <div class="container-fluid text-center" id="home">
+    <div class="container-fluid text-center" id="home">
         <div class="opaque-overlay"></div>
             <div class="row align-items-center">
                 <div class="col-12">
@@ -59,7 +60,12 @@
                 </div>
             </div>
         </div>
-    <div class="photo-75" id="old-picture"></div>
+    <div class="container-fluid">
+        <div class="row justify-content-xl-center">
+            <div class="col-12 col-lg-8 photo-75" id="old-picture"></div>
+        </div>
+    </div>
+    
     <!-- Our Story -->
     <section>
         <div class="container"> 

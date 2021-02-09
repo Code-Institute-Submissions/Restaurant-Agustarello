@@ -1,4 +1,6 @@
-/*Uso delle variabili e formato di scrittura suggerito da "Web Development for Absolute Beginners" di John Smilga, corso su Udemy*/
+/*
+Use of variables and writing layout suggested by "Web Development for Absolute Beginners" di John Smilga, Udemy.com class
+*/
 
 /*
 =============================================
@@ -15,8 +17,7 @@ Variables
 :root {
     --clr-primary: #4B0101;
     --clr-secondary: #F8E793;
-    --clr-tertiary: rgb(2, 70, 34);
-    --clr-grey: #93827F;
+    --clr-background: #F2EFE9;
     --ff-title: "Poiret One", cursive;
     --ff-paragraph: "Bentham", cursive;
 }
@@ -26,18 +27,19 @@ Variables
 Global CSS
 =============================================
 */
-/*reset proprieties - CSS Tricks*/
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: var(--ff-paragraph);
-    background: var(--clr-white);
+    background: var(--clr-background);
     color: var(--clr-primary);
-    line-height: 1.5;
-    font-size: 1.6rem;
-    letter-spacing: 3px;
+    line-height:2.5;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+
 
     /*margin-bottom by footer height*/
     margin-bottom: 120px;
@@ -45,46 +47,55 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+    /*navbar navigation*/
+    scroll-behavior: smooth;
 
-  /*solution for footer stick on the bottom*/
-  min-height: 100%;
-  position: relative;
-}
-
-
-a {
-    text-decoration: none;
+    /*solution for footer stick on the bottom*/
+    min-height: 100%;
+    position: relative;
 }
 
 h1,
 h2,
-h3,
-h4 {  
+h3 {  
   font-family: var(--ff-title);
-  letter-spacing: var(--spacing);
+  letter-spacing: 4px;
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
+
 h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
 }
+
 h2 {
   font-size: 2rem;
     text-transform: uppercase;
 }
+
 h3 {
   font-size: 1.5rem;
 }
-h4 {
-  font-size: 0.875rem;
-}
+
 p {
   margin-bottom: 1.25rem;
 }
 
+a,
+a:hover,
+a:active,
+a:focus,
+a:active:focus {
+    text-decoration: none;
+}
+
+/*
+============================================= 
+Images
+=============================================
+*/
 .photo-100 {
     background-color: #fff;
     background-position: center;
@@ -112,6 +123,7 @@ p {
     height: 50vh;
 }
 
+/* Solution from website https://kescardoso.github.io/yinnsound/   */
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -121,16 +133,6 @@ p {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-/*--------------------------------------------------------------------- Links */
-
-a,
-a:hover,
-a:active,
-a:focus,
-a:active:focus {
-    text-decoration: none;
-    color: var(--clr-secondary)
-}
 /*
 ============================================= 
 Animation
@@ -174,8 +176,6 @@ Home
 */
 #home {
   height: 100vh;
-  /*linear gradient idea from this article: https://spin.atomicobject.com/2015/04/07/css-multiple-backgrounds/*/
-
   background: url('../images/hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -183,9 +183,7 @@ Home
   background-size: cover;
 
   display: flex;
-  align-items: center;
   justify-content: center;
-
   position: relative;
 }
 .jumbotron {
@@ -242,6 +240,7 @@ Navbar
     border: 1px solid var(--clr-secondary);
     padding: 0 3px 0 3px;
 }
+
 /*
 =============================================
 "Our Story"
