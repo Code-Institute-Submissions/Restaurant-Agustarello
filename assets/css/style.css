@@ -246,12 +246,15 @@ Navbar
 "Our Story"
 =============================================
 */
+#story{
+    scroll-margin-top: 40px;
+}
 #ourstory{
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/porticus_aemilia_wall.jpg");
 }
 
 .text-overlay{
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .text-overlay span{
@@ -301,14 +304,22 @@ Navbar
 }
 /*
 =============================================
+"Menu"
+=============================================
+*/
+#menu{
+    scroll-margin-top: 80px;
+}
+/*
+=============================================
 "Contact"
 =============================================
 */
 #contact{
     background-color: var(--clr-primary);
-
     font-size: 0.75rem;
     color: var(--clr-secondary);
+    scroll-margin-top: 60px;
 }
 
 #contact p span{
