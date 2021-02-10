@@ -268,7 +268,7 @@ Navbar
 }
 
 #old-picture{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/old_picture.jpg");
+    background-image:url("../images/old_picture.jpg");
 }
 
 #food-item-1{
@@ -277,7 +277,7 @@ Navbar
 }
 
 #food-item-2{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/sweetbreads.jpg");
+    background-image: url("../images/sweetbreads.jpg");
 }
 
 #ourstory2{
@@ -285,19 +285,19 @@ Navbar
 }
 
 #ourmenu{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/coratella.jpg");
+    background-image: url("../images/coratella.jpg");
 }
 
 #food-item-3{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/meatballs.jpg");
+    background-image: url("../images/meatballs.jpg");
 }
 
 #food-item-4{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/mascarpone_berries.jpg");
+    background-image:url("../images/mascarpone_berries.jpg");
 }
 
 #food-item-5{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/apple_cake.jpg");
+    background-image:url("../images/apple_cake.jpg");
 }
 /*
 =============================================
@@ -387,6 +387,14 @@ Navbar
 
 .footer p{
     margin-bottom: 10px;
+}
+
+#back-top i{
+    font-size: 1.5rem;
+    padding: 2px;
+    border: solid 2px;
+    border-radius: 50%;
+}
 }
 /*
 =============================================
