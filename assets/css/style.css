@@ -389,12 +389,53 @@ Navbar
     margin-bottom: 10px;
 }
 
-#back-top i{
-    font-size: 1.5rem;
-    padding: 2px;
-    border: solid 2px;
-    border-radius: 50%;
+/*
+=============================================
+"Back to the top"
+=============================================
+*/
+.back-to-top-wrapper {
+  /* // uncomment to visualize "track" */
+  position: absolute;
+  top: 100vh;
+  right: 0.25rem;
+  /* Optional, extends the final link into the 
+  footer at the bottom of the page
+  Set to `0` to stop at the end of `main` */
+  bottom: 0em;
+  /* Required for best support in browsers not supporting `sticky` */
+  width: 3em;
+  /* Disable interaction with this element */
+  pointer-events: none;
 }
+
+.back-to-top-link {
+    /* fixed` is fallback when `sticky` not supported */
+    position: fixed;
+    /* preferred positioning, requires prefixing for most support, and not    supported on Safari
+    @link https://caniuse.com/#search=position%3A%20sticky */
+    position: sticky;
+    /* reinstate clicks */
+    pointer-events: all;
+    /* achieves desired positioning within the viewport */
+    /* relative to the top of the viewport once `sticky` takes over, or always if     `fixed` fallback is used */
+    top: calc(100vh - 4rem);
+    padding: 0px 1px 4px 6px;
+    border-top: solid 3px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    color: rgba(11, 68, 20, 0.3);
+}
+
+.back-to-top-link:hover{
+    color: rgba(11, 68, 20, 1);
+    font-size: 2rem;
+    padding: 0px 0px 4px 3px;
 }
 /*
 =============================================
