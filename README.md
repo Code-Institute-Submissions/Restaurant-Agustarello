@@ -156,3 +156,7 @@ Usando classi di bootstrap ho notato che se usavo *{margin:0 padding:0} col-12 e
 Logo e menu nella navbar allineato uno a fianco all'altro
 
 margin-scroll
+
+display navbar 100vh. alla fine l'elemento da modificare era <ul>
+
+display list element inline in the navbar
