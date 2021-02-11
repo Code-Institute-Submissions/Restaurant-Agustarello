@@ -93,6 +93,10 @@ a:active:focus {
 Images
 =============================================
 */
+.resp-photo{
+    max-width: 100%;
+    height: auto;
+}
 .photo-100 {
     background-color: #fff;
     background-position: center;
@@ -328,10 +332,6 @@ Navbar
     font-size: 1.6rem;
 }
 
-#old-picture{
-    background-image:url("../images/old_picture.jpg");
-}
-
 #food-item-1{
     background-image: url("../images/trippa_mod_v2.jpg");
     background-attachment: fixed;
@@ -349,9 +349,6 @@ Navbar
     background-image: url("../images/coratella.jpg");
 }
 
-#food-item-3{
-    background-image: url("../images/meatballs.jpg");
-}
 
 #food-item-4{
     background-image:url("../images/mascarpone_berries.jpg");
