@@ -97,32 +97,15 @@ Images
     max-width: 100%;
     height: auto;
 }
-.photo-100 {
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 100vh;
-}
-
-.photo-75 {
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
+.fixed-back {
     height: 75vh;
+    background: url('../images/trippa_mod_v2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.photo-50 {
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 50vh;
-}
 
 /* Solution from website https://kescardoso.github.io/yinnsound/   */
 .opaque-overlay {
@@ -311,9 +294,6 @@ Navbar
 #story{
     scroll-margin-top: 40px;
 }
-#ourstory{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/porticus_aemilia_wall.jpg");
-}
 
 .text-overlay{
     margin-top: 2.5rem;
@@ -331,32 +311,6 @@ Navbar
 #ourstory p{
     font-size: 1.6rem;
 }
-
-#food-item-1{
-    background-image: url("../images/trippa_mod_v2.jpg");
-    background-attachment: fixed;
-}
-
-#food-item-2{
-    background-image: url("../images/sweetbreads.jpg");
-}
-
-#ourstory2{
-     background-image:url("../images/garden.jpg");
-}
-
-#ourmenu{
-    background-image: url("../images/coratella.jpg");
-}
-
-
-#food-item-4{
-    background-image:url("../images/mascarpone_berries.jpg");
-}
-
-#food-item-5{
-    background-image:url("../images/apple_cake.jpg");
-}
 /*
 =============================================
 "Menu"
@@ -371,11 +325,13 @@ Navbar
 =============================================
 */
 #contact{
-    background-color: var(--clr-primary);
     color: var(--clr-secondary);
     scroll-margin-top: 60px;
 }
 
+#contact div div div{
+    background-color: var(--clr-primary);
+}
 #contact p span{
     text-transform: uppercase;
 }
