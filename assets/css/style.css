@@ -93,14 +93,7 @@ a:active:focus {
 Images
 =============================================
 */
-.img-container{
-    padding: 15px;
-}
 
-.resp-photo{
-    max-width: 100%;
-    height: auto;
-}
 .fixed-back {
     height: 75vh;
     background: url('../images/trippa_mod_v2.jpg') no-repeat center center fixed;
@@ -207,6 +200,7 @@ Home
 Navbar
 =============================================
 */
+
 .menu-burg {
   font-size: 2rem;
   color: var(--clr-secondary);
@@ -335,6 +329,7 @@ Navbar
 }
 .menu-link i{
     margin-left: 5px;
+
 }
 /*
 =============================================
