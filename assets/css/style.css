@@ -96,7 +96,7 @@ Images
 
 .fixed-back {
     height: 75vh;
-    background: url('../images/trippa_mod_v2.jpg') no-repeat center center fixed;
+    background: url('../images/tripe-pop.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -114,6 +114,13 @@ Images
     background-color: rgba(255, 255, 255, 0.25);
 }
 
+.img-frame{
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    background-color: var(--clr-background);
+    max-width: 100%;
+    height: auto;
+}
 /*
 ============================================= 
 Animation
