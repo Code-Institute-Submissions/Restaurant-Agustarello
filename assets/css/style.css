@@ -93,6 +93,10 @@ a:active:focus {
 Images
 =============================================
 */
+.img-container{
+    padding: 15px;
+}
+
 .resp-photo{
     max-width: 100%;
     height: auto;
@@ -319,6 +323,19 @@ Navbar
 #menu{
     scroll-margin-top: 80px;
 }
+
+.menu-link{
+    font-size: 1.5rem;
+    color: var(--clr-primary);
+    text-decoration: underline;
+}
+.menu-link:hover{
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+.menu-link i{
+    margin-left: 5px;
+}
 /*
 =============================================
 "Contact"
@@ -332,6 +349,7 @@ Navbar
 #contact div div div{
     background-color: var(--clr-primary);
 }
+
 #contact p span{
     text-transform: uppercase;
 }
@@ -443,11 +461,11 @@ Navbar
     text-align: center;
     width: 2rem;
     height: 2rem;
-    color: rgba(11, 68, 20, 0.3);
+    color: rgba(34, 126, 201, 0.3);
 }
 
 .back-to-top-link:hover{
-    color: rgba(11, 68, 20, 1);
+    color: rgb(34, 126, 201, 1);
     font-size: 2rem;
     padding: 0px 0px 4px 3px;
 }

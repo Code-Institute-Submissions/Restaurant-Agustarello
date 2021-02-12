@@ -160,3 +160,5 @@ margin-scroll
 display navbar 100vh. alla fine l'elemento da modificare era <ul>
 
 display list element inline in the navbar
+
+download the menu with download attribute or not
