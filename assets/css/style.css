@@ -19,7 +19,7 @@ Variables
     --clr-secondary: #F8E793;
     --clr-background: #F2EFE9;
     --clr-background-2: rgba(75, 1, 1, 0.1);
-    --ff-title: "Benne", cursive;
+    --ff-title: "Benne", serif;
     --ff-paragraph: "Bentham", cursive;
 }
 
@@ -110,13 +110,6 @@ Images
     background-size: cover;
 }
 
-.img-frame{
-    padding: 0.5rem;
-    border-radius: 1rem;
-    background-color: var(--clr-background);
-    max-width: 100%;
-    height: auto;
-}
 /*
 ============================================= 
 Animation
@@ -170,13 +163,12 @@ Home
   justify-content: center;
   position: relative;
 }
+
 .jumbotron {
   background-color: transparent;
 }
 
-
 #home h1  {
-    margin-bottom: var(--spacing);
     /*presa da qui https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load*/
     animation: fadein 1s ease-in;
     -webkit-animation: fadein 1s ease-in; /* Safari, Chrome and Opera > 12.1 */
@@ -186,7 +178,6 @@ Home
 }
 
 #home h2 {
-    margin-bottom: 0;
     animation: fadein 3s ease-in;
     -webkit-animation: fadein 3s ease-in; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s ease-in; /* Firefox < 16 */
@@ -195,7 +186,7 @@ Home
 }
 
 #home span {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /*
@@ -203,17 +194,13 @@ Home
 Navbar
 =============================================
 */
-.menu-background{
-    background-color: var(--clr-background-2);
+.navbar {
+  background-color: var(--clr-primary);
 }
 
 .menu-burg {
   font-size: 2rem;
   color: var(--clr-secondary);
-}
-
-.navbar {
-  background-color: var(--clr-primary);
 }
 
 .nav-item{
@@ -295,7 +282,7 @@ Navbar
 =============================================
 */
 #tripe{
-    background-image: url('../images/tripe-pop.jpg');
+    background-image: url('../images/tripe.jpg');
     height: 75vh;
 }
 
@@ -312,15 +299,16 @@ Navbar
 =============================================
 */
 #menu{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 40px;
 }
 
 .menu-link{
-    font-size: 1.5rem;
+    font-weight: 800;
     color: var(--clr-primary);
     text-decoration: underline;
 }
 .menu-link:hover{
+    font-weight: 400;
     text-decoration: none;
     color: var(--clr-primary);
 }
@@ -333,13 +321,10 @@ Navbar
 "Contact"
 =============================================
 */
-#contact{
+#contact {
     color: var(--clr-secondary);
-    scroll-margin-top: 60px;
-}
-
-#contact div div div{
     background-color: var(--clr-primary);
+    scroll-margin-top: 40px;
 }
 
 #contact p span{
