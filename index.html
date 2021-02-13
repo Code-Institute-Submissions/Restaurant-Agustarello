@@ -1,115 +1,14 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Agustarello a Testaccio - 1957</title>
-<style>
-
-/* GitHub */
-/* CSS selects by ID to override default style (loaded earlier: higher priority) */
-.repository-content > div #gitpod-btn-container.gitpod-file-btn,
-.file-navigation #gitpod-btn-container {
-    margin-left: 6px;
-}
-
-.no-container {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Bitbucket */
-#commit-header .commit-actions {
-    width: 305px;
-}
-
-.bitbucket-button {
-    background: rgba(9, 30, 66, 0.04);
-    border: none;
-    outline: 0;
-    height: 2.28571429em;
-    line-height: 1.57142857em;
-    box-sizing: border-box;
-    border-radius: 3.01px;
-    cursor: pointer;
-    display: inline-block;
-    margin: 0 4px;
-    padding: 4px 10px;
-    vertical-align: baseline;
-    white-space: nowrap;
-}
-
-.bitbucket-button:hover {
-    background: rgba(9, 30, 66, 0.08);
-}
-
-.bitbucket-button a, .aui-button a {
-    text-decoration: none;
-    color: #42526e !important;
-    font-family: inherit;
-    font-size: 14px;
-    font-variant: normal;
-    font-weight: 500;
-}
-
-.bitbucket-button a:focus {
-    outline: none;
-}</style><style>
-
-/* GitHub */
-/* CSS selects by ID to override default style (loaded earlier: higher priority) */
-.repository-content > div #gitpod-btn-container.gitpod-file-btn,
-.file-navigation #gitpod-btn-container {
-    margin-left: 6px;
-}
-
-.no-container {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Bitbucket */
-#commit-header .commit-actions {
-    width: 305px;
-}
-
-.bitbucket-button {
-    background: rgba(9, 30, 66, 0.04);
-    border: none;
-    outline: 0;
-    height: 2.28571429em;
-    line-height: 1.57142857em;
-    box-sizing: border-box;
-    border-radius: 3.01px;
-    cursor: pointer;
-    display: inline-block;
-    margin: 0 4px;
-    padding: 4px 10px;
-    vertical-align: baseline;
-    white-space: nowrap;
-}
-
-.bitbucket-button:hover {
-    background: rgba(9, 30, 66, 0.08);
-}
-
-.bitbucket-button a, .aui-button a {
-    text-decoration: none;
-    color: #42526e !important;
-    font-family: inherit;
-    font-size: 14px;
-    font-variant: normal;
-    font-weight: 500;
-}
-
-.bitbucket-button a:focus {
-    outline: none;
-}</style></head>
-<body data-new-gr-c-s-check-loaded="14.995.0" data-gr-ext-installed="">
+</head>
+<body>
     <header>
         <!-- The navbar structur with button come from here: 
                 https://getbootstrap.com/docs/4.6/examples/album/-->
@@ -121,7 +20,9 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- Font Awesome icon bug
                     https://stackoverflow.com/questions/61864587/font-awesome-icons-not-showing-up-on-my-webpage-i-made-using-bootstrap4-->
-                    <span class="navbar-toggler-icon"><i class="menu-burg fa fa-bars"></i></span>
+                    <span class="navbar-toggler-icon">
+                        <i class="menu-burg fa fa-bars"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="text-center navbar-nav ml-auto">
@@ -172,7 +73,7 @@
     <!-- Home -->
         <!-- Simple explanation about vertical alignment an element with bootstrap:
         https://www.tutorialrepublic.com/faq/how-to-vertical-align-a-div-in-bootstrap.php#:~:text=Answer%3A%20Use%20the%20align%2Ditems,center%20on%20the%20containing%20element.-->
-    <div class="container-fluid text-center fixed-back" id="home">
+    <div class="container-fluid text-center" id="home">
             <div class="row align-items-center">
                 <div class="col-12">
                     <section class="jumbotron mb-0">
@@ -182,34 +83,32 @@
                 </div>
             </div>
         </div>
-    <div class="container-fluid">
-        <div class="row justify-content-xl-center py-xl-4">
-            <div class="col-12 col-lg-10 col-xl-8 px-0 py-lg-3 mx-auto text-center">
+
+    <!-- Our Story -->
+<section id="story" class="container-fluid">
+        <div class="row background-dark text-center py-4">
+            <div class="col">
+                <h2 class="mb-0">our story</h2>
+            </div>
+             </div>
+        <div class="row">
+            <div class="col-12 col-lg-10 col-xl-8 mx-auto px-0 pb-lg-4 text-center">
                 <img src="./assets/images/picture-from-sixties2.jpg" alt="A memorabilia from the sixties" class="img-fluid">
             </div>
         </div>
-    </div>
-    
-    <!-- Our Story -->
-    <section id="story">
-        <div class="container-fluid"> 
-            <div class="row justify-content-xl-center pt-xl-4" style="
-    background-color: var(--clr-background-2);
-">
-                <div class="col-12 col-lg-4 col-xl-3 text-overlay text-center">
-                    <h2>our story</h2>
-                    <p>
-                        Agustarello was first opened in 1957, founded by Agostino <span>"Agustarello"</span> Commentucci. In those early years the place was a cellar, a place where you could play cards and drink wine.
-                        A reference point for the workers of the nearby slaughterhouse and for the people of the neighborhood, after a few years Agostino transformed the place into a Roman <span>trattoria</span>.
+        <div class="row pt-xl-4 text-center">
+            <div class="col-12 col-lg-10 col-xl-5 mx-auto px-lg-0 mt-4 ">
+                <p class="text-justify">
+                    Agustarello was first opened in 1957, founded by Agostino <span>"Agustarello"</span> Commentucci. In those early years the place was a cellar, a place where you could play cards and drink wine.
+                    A reference point for the workers of the nearby slaughterhouse and for the people of the neighborhood, after a few years Agostino transformed the place into a Roman <span>trattoria</span>.
                     </p>
-                </div>
-                <div class="col-12 col-lg-8 col-xl-5 px-0 px-lg-4 py-xl-4 pr-xl-0 my-lg-auto" id="ourstory">
-                    <img src="./assets/images/porticus-aemilia.jpg" alt="The -Porticus Aemilia- an ancient Roman aqueduct" class="img-fluid">
-                </div>
             </div>
-            <div class="row justify-content-xl-center">
-                <div class="col-12 col-xl-8 px-0 fixed-back" id="tripe">
-                </div>
+            <div class="col-12 col-lg-10 col-xl-8 mx-auto px-0 py-lg-3 py-xl-4" id="ourstory">
+                <img src="./assets/images/porticus-aemilia.jpg" alt="The -Porticus Aemilia- an ancient Roman aqueduct" class="img-fluid">
+            </div>
+        </div>
+        <div class="row justify-content-xl-center">
+            <div class="col-12 col-xl-8 px-0 fixed-back" id="tripe">
             </div>
         </div>     
     </section>
@@ -222,7 +121,7 @@
                 <div class="col-12 col-lg-8 col-xl-5 px-0 my-lg-auto" id="herbs">
                     <img src="./assets/images/garden.jpg" alt="Fresh herbs" class="img-fluid">
                 </div>
-                <div class="col-12 col-lg-4 col-xl-3 text-overlay text-center">
+                <div class="col-12 col-lg-4 col-xl-3 mt-4 text-center">
                     <h2>our family</h2>
                     <p>
                         Today, Agostino's heirs manage the restaurant that keeps the tradition of Roman cuisine alive, an experience that goes beyond food, taking you back to a vanished Rome. Alessandro Commentucci, son of Agostino, continues in the tradition of proposing the classic dishes of Roman cuisine, directly dealing with the preparation of dishes and cooking.
@@ -241,7 +140,7 @@
     <section>
         <div class="container-fluid"> 
             <div class="row justify-content-lg-center menu-background rounded">
-                <div id="menu" class="col-12 col-lg-8 col-xl-8 text-overlay text-center">
+                <div id="menu" class="col-12 col-lg-8 col-xl-8 mt-4 text-center">
                     <h2>Menu</h2>
                     <p>
                         Our specialities are those of the <span>Quinto Quarto</span>. The poorest parts of beef, which a skilled hand and decades of experience have transformed into dishes rich in flavour and hard to find elsewhere. Our cellar is stocked with a wide selection of national labels and the best wine producers of our region. 
