@@ -33,23 +33,26 @@ Global CSS
     box-sizing: border-box;
 }
 
+html {
+    /*navbar navigation*/
+    scroll-behavior: smooth;
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     font-family: var(--ff-paragraph);
     background: var(--clr-background);
     color: var(--clr-primary);
     line-height:2.5;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     margin-bottom: 110px;
 }
-
-html {
-    /*navbar navigation*/
-    scroll-behavior: smooth;
-
-    /*solution for footer stick on the bottom*/
-    min-height: 100%;
-    position: relative;
+@media screen and (min-width: 1440px){
+    body{
+    font-size: 2rem;
+    }
 }
 
 h1,
@@ -63,17 +66,17 @@ h3 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
     text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 p {
@@ -96,8 +99,7 @@ Images
 */
 
 .fixed-back {
-    height: 75vh;
-    background: url('../images/tripe-pop.jpg') no-repeat center center fixed;
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -166,10 +168,10 @@ Home
 #home {
   height: 100vh;
   background: url('../images/hero.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
   display: flex;
   justify-content: center;
@@ -245,7 +247,6 @@ Navbar
 }
 
 .social-links-navbar{
-    font-size: 2rem;
     color: var(--clr-secondary);
     list-style: none;
     padding-left: 0;
@@ -258,7 +259,6 @@ Navbar
 @media screen and (min-width: 768px){
     .nav-item{
         margin-bottom: 3rem;
-        font-size: 2rem;
     }
 }
 
@@ -270,7 +270,6 @@ Navbar
     .nav-item{
         margin-bottom: unset;
         margin-left: 16px;
-        font-size: 1.4rem;
     }
     .social-links-navbar{
         margin-left: 32px;
@@ -292,7 +291,6 @@ Navbar
     }
     .nav-item{
         margin-left: 32px;
-        font-size: 1.5rem;
     }
     .social-links-navbar{
     margin-left: 64px;
@@ -303,6 +301,11 @@ Navbar
 "Our Story"
 =============================================
 */
+#tripe{
+    background-image: url('../images/tripe-pop.jpg');
+    height: 75vh;
+}
+
 #story{
     scroll-margin-top: 40px;
 }
@@ -406,9 +409,10 @@ Navbar
   bottom: 0;
   width: 100%;
   height: 110px;
-  font-size: 0.7rem;
+  font-size: 0.7em;
   line-height: 1;
 }
+
 
 .footer ul{
     list-style: none;
@@ -422,7 +426,7 @@ Navbar
 
 .footer-social-icon{
     color: var(--clr-primary);
-    font-size: 0.7rem;
+    font-size: 0.7em;
     margin-right: 10px;
 }
 

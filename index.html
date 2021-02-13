@@ -1,14 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Agustarello a Testaccio - 1957</title>
-</head>
-<body>
+<style>
+
+/* GitHub */
+/* CSS selects by ID to override default style (loaded earlier: higher priority) */
+.repository-content > div #gitpod-btn-container.gitpod-file-btn,
+.file-navigation #gitpod-btn-container {
+    margin-left: 6px;
+}
+
+.no-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Bitbucket */
+#commit-header .commit-actions {
+    width: 305px;
+}
+
+.bitbucket-button {
+    background: rgba(9, 30, 66, 0.04);
+    border: none;
+    outline: 0;
+    height: 2.28571429em;
+    line-height: 1.57142857em;
+    box-sizing: border-box;
+    border-radius: 3.01px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 4px;
+    padding: 4px 10px;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.bitbucket-button:hover {
+    background: rgba(9, 30, 66, 0.08);
+}
+
+.bitbucket-button a, .aui-button a {
+    text-decoration: none;
+    color: #42526e !important;
+    font-family: inherit;
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+.bitbucket-button a:focus {
+    outline: none;
+}</style><style>
+
+/* GitHub */
+/* CSS selects by ID to override default style (loaded earlier: higher priority) */
+.repository-content > div #gitpod-btn-container.gitpod-file-btn,
+.file-navigation #gitpod-btn-container {
+    margin-left: 6px;
+}
+
+.no-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Bitbucket */
+#commit-header .commit-actions {
+    width: 305px;
+}
+
+.bitbucket-button {
+    background: rgba(9, 30, 66, 0.04);
+    border: none;
+    outline: 0;
+    height: 2.28571429em;
+    line-height: 1.57142857em;
+    box-sizing: border-box;
+    border-radius: 3.01px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 4px;
+    padding: 4px 10px;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.bitbucket-button:hover {
+    background: rgba(9, 30, 66, 0.08);
+}
+
+.bitbucket-button a, .aui-button a {
+    text-decoration: none;
+    color: #42526e !important;
+    font-family: inherit;
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+.bitbucket-button a:focus {
+    outline: none;
+}</style></head>
+<body data-new-gr-c-s-check-loaded="14.995.0" data-gr-ext-installed="">
     <header>
         <!-- The navbar structur with button come from here: 
                 https://getbootstrap.com/docs/4.6/examples/album/-->
@@ -43,22 +144,22 @@
                         </li>
                         <li>
                             <ul class="nav-item social-links-navbar">
-                                <li >
+                                <li>
                                     <a href="https://www.facebook.com/agustarellodal1957" target="_blank" aria-label="follow us on facebook">
-                                    <i class= "fa fa-facebook"></i>
+                                    <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://www.instagram.com/agustarello_testaccio/" target="_blank" aria-label="follow us on instagram">
-                                    <i class= "fa fa-instagram"></i>
+                                    <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class= "fa fa-whatsapp" aria-label="contact us with Whatsapp"></i>
+                                    <a href="#"><i class="fa fa-whatsapp" aria-label="contact us with Whatsapp"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tripadvisor.it/Restaurant_Review-g187791-d743400-Reviews-Agustarello_a_Testaccio-Rome_Lazio.html?m=19905" target="_blank" aria-label="review us on tripadvisor"><i class= "fa fa-tripadvisor"></i>
+                                    <a href="https://www.tripadvisor.it/Restaurant_Review-g187791-d743400-Reviews-Agustarello_a_Testaccio-Rome_Lazio.html?m=19905" target="_blank" aria-label="review us on tripadvisor"><i class="fa fa-tripadvisor"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -71,11 +172,10 @@
     <!-- Home -->
         <!-- Simple explanation about vertical alignment an element with bootstrap:
         https://www.tutorialrepublic.com/faq/how-to-vertical-align-a-div-in-bootstrap.php#:~:text=Answer%3A%20Use%20the%20align%2Ditems,center%20on%20the%20containing%20element.-->
-    <div class="container-fluid text-center" id="home">
-        <div class="opaque-overlay"></div>
+    <div class="container-fluid text-center fixed-back" id="home">
             <div class="row align-items-center">
                 <div class="col-12">
-                    <section class="jumbotron">
+                    <section class="jumbotron mb-0">
                         <h1 class="h-jumbotron">agustarello</h1>
                         <h2 class="lead">a Testaccio since <span>1957</span></h2>
                     </section>
@@ -83,8 +183,8 @@
             </div>
         </div>
     <div class="container-fluid">
-        <div class="row justify-content-xl-center">
-            <div class="col-12 col-lg-10 col-xl-8 px-0 mx-auto">
+        <div class="row justify-content-xl-center py-xl-4">
+            <div class="col-12 col-lg-10 col-xl-8 px-0 py-lg-3 mx-auto text-center">
                 <img src="./assets/images/picture-from-sixties2.jpg" alt="A memorabilia from the sixties" class="img-fluid">
             </div>
         </div>
@@ -93,7 +193,9 @@
     <!-- Our Story -->
     <section id="story">
         <div class="container-fluid"> 
-            <div class="row justify-content-xl-center">
+            <div class="row justify-content-xl-center pt-xl-4" style="
+    background-color: var(--clr-background-2);
+">
                 <div class="col-12 col-lg-4 col-xl-3 text-overlay text-center">
                     <h2>our story</h2>
                     <p>
@@ -101,7 +203,7 @@
                         A reference point for the workers of the nearby slaughterhouse and for the people of the neighborhood, after a few years Agostino transformed the place into a Roman <span>trattoria</span>.
                     </p>
                 </div>
-                <div class="col-12 col-lg-8 col-xl-5 px-0 px-lg-4 my-lg-auto" id="ourstory">
+                <div class="col-12 col-lg-8 col-xl-5 px-0 px-lg-4 py-xl-4 pr-xl-0 my-lg-auto" id="ourstory">
                     <img src="./assets/images/porticus-aemilia.jpg" alt="The -Porticus Aemilia- an ancient Roman aqueduct" class="img-fluid">
                 </div>
             </div>
@@ -114,7 +216,9 @@
     <!-- Our family -->
     <section>
         <div class="container-fluid"> 
-            <div class="row justify-content-xl-center">
+            <div class="row justify-content-xl-center py-xl-4" style="
+    background-color: var(--clr-background-2);
+">
                 <div class="col-12 col-lg-8 col-xl-5 px-0 my-lg-auto" id="herbs">
                     <img src="./assets/images/garden.jpg" alt="Fresh herbs" class="img-fluid">
                 </div>
@@ -126,7 +230,7 @@
                 </div>    
             </div>
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-8 px-md-4" id="meatballs">
+                <div class="col-12 col-lg-8 px-md-4 text-center" id="meatballs">
                     <img src="./assets/images/meatballs.jpg" alt="In addition to the classic Roman cuisine we also have meatballs" class="img-fluid img-frame mx-auto">
                 </div>
             </div>
@@ -146,17 +250,17 @@
                 </div>
             </div>
             <div class="row justify-content-lg-center">
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-0" id="menu-1">
-                    <img src="./assets/images/roasted-sweetbreads.jpg" alt="Grilled Sweetbreads is one of our speciality" class="img-fluid img-frame">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-0 p-md-3" id="menu-1">
+                    <img src="./assets/images/roasted-sweetbreads.jpg" alt="Grilled Sweetbreads is one of our speciality" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-0" id="menu-2">
-                    <img src="./assets/images/coratella.jpg" alt="Coratella is a stew made with lamb's offails" class="img-fluid img-frame">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-0 p-md-3" id="menu-2">
+                    <img src="./assets/images/coratella.jpg" alt="Coratella is a stew made with lamb's offails" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-0" id="menu-3">
-                    <img src="./assets/images/apple-cake.jpg" alt="Our dessert are homemade" class="img-fluid img-frame">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-0 p-md-3" id="menu-3">
+                    <img src="./assets/images/apple-cake.jpg" alt="Our dessert are homemade" class="img-fluid">
                 </div>
-                <div  class="col-12 col-md-6 col-xl-3 px-0" id="menu-4">
-                    <img src="./assets/images/mascarpone-and-berries.jpg" alt="Mascarpone cheese and berries" class="img-fluid img-frame">
+                <div class="col-12 col-md-6 col-xl-3 px-0 p-md-3" id="menu-4">
+                    <img src="./assets/images/mascarpone-and-berries.jpg" alt="Mascarpone cheese and berries" class="img-fluid">
                 </div>
             </div>
         </div>     
@@ -185,17 +289,17 @@
                     <ul class="social-links">
                         <li>
                             <a href="https://www.facebook.com/agustarellodal1957" target="_blank" aria-label="follow us on facebook">
-                                <i class= "fa fa-facebook"></i>
+                                <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/agustarello_testaccio/" target="_blank" aria-label="follow us on instagram">
-                                <i class= "fa fa-instagram"></i>
+                                <i class="fa fa-instagram"></i>
                             </a>
                         </li>
-                        <li><a href="#"><i class= "fa fa-whatsapp" aria-label="contact us with Whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp" aria-label="contact us with Whatsapp"></i></a></li>
                         <li>
-                            <a href="https://www.tripadvisor.it/Restaurant_Review-g187791-d743400-Reviews-Agustarello_a_Testaccio-Rome_Lazio.html?m=19905" target="_blank" aria-label="review us on tripadvisor"><i class= "fa fa-tripadvisor"></i></a>
+                            <a href="https://www.tripadvisor.it/Restaurant_Review-g187791-d743400-Reviews-Agustarello_a_Testaccio-Rome_Lazio.html?m=19905" target="_blank" aria-label="review us on tripadvisor"><i class="fa fa-tripadvisor"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -212,8 +316,8 @@
         </div>
         <div class="container-fluid">
             <div class="row justify-content-xl-center">
-                <div class="col-12 col-xl-8 map w-100">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.1701360790162!2d12.47328155423281!3d41.87955584838307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f602fe1775465%3A0x548233c18b59bd5e!2sAgustarello%20a%20Testaccio!5e0!3m2!1sit!2sie!4v1612825597244!5m2!1sit!2sie" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
+                <div class="col-12 col-xl-8 map px-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.1701360790162!2d12.47328155423281!3d41.87955584838307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f602fe1775465%3A0x548233c18b59bd5e!2sAgustarello%20a%20Testaccio!5e0!3m2!1sit!2sie!4v1612825597244!5m2!1sit!2sie" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>
@@ -222,25 +326,25 @@
     <footer>
         <div class="container-fluid">
             <div class="row justify-content-xl-center text-center">
-                <div class="col-12 col-xl-8 footer">
+                <div class="col-12 footer">
                         <ul class="text-uppercase">
                             <li>
                                 <a href="https://www.facebook.com/agustarellodal1957" target="_blank" aria-label="follow us on facebook">
-                                <i class= "footer-social-icon fa fa-facebook"></i>
+                                <i class="footer-social-icon fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/agustarello_testaccio/" target="_blank" aria-label="follow us on instagram">
-                                <i class= "footer-social-icon fa fa-instagram"></i>
+                                <i class="footer-social-icon fa fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#"><i class= "footer-social-icon fa fa-whatsapp" aria-label="contact us with Whatsapp"></i>
+                                <a href="#"><i class="footer-social-icon fa fa-whatsapp" aria-label="contact us with Whatsapp"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.tripadvisor.it/Restaurant_Review-g187791-d743400-Reviews-Agustarello_a_Testaccio-Rome_Lazio.html?m=19905" target="_blank" aria-label="review us on tripadvisor">
-                                <i class= "footer-social-icon fa fa-tripadvisor"></i>
+                                <i class="footer-social-icon fa fa-tripadvisor"></i>
                                 </a>
                             </li>
                         </ul>
@@ -263,5 +367,5 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html>
+
+</body></html>

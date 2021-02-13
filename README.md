@@ -162,3 +162,9 @@ display navbar 100vh. alla fine l'elemento da modificare era <ul>
 display list element inline in the navbar
 
 download the menu with download attribute or not
+
+map padding I forgot a container element
+
+centering img element inside col in xxl screens. Added text-center in col container
+
+font-size bigger screen - sostituion rem with em
