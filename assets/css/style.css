@@ -7,7 +7,7 @@ Use of variables and writing layout suggested by "Web Development for Absolute B
 Fonts
 =============================================
 */
-@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rock+Salt&display=swap');
 
 /*
 =============================================
@@ -17,10 +17,10 @@ Variables
 :root {
     --clr-primary: #4B0101;
     --clr-secondary: #F8E793;
-    --clr-background: #F2EFE9;
-    --clr-background-2: rgba(75, 1, 1, 0.1);
-    --ff-title: "Benne", serif;
-    --ff-paragraph: "Bentham", cursive;
+    --clr-background:#E0E0E2;
+    --clr-background-2: #F8E793;
+    --ff-title: "Rock Salt", serif;
+    --ff-paragraph: "Lobster", cursive;
 }
 
 /*
@@ -44,7 +44,7 @@ body {
     font-family: var(--ff-paragraph);
     background: var(--clr-background);
     color: var(--clr-primary);
-    line-height:2.5;
+    line-height:2;
     font-size: 1.5rem;
     letter-spacing: 2px;
     margin-bottom: 110px;
@@ -88,6 +88,12 @@ h3 {
 
 p {
   margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 992px){
+    p{
+        font-size: 1.2rem;
+        line-height: 2;
+    }
 }
 
 a,
@@ -283,8 +289,12 @@ Navbar
 "Our Story"
 =============================================
 */
-#tripe{
-    background-image: url('../images/tripe.jpg');
+#meatballs{
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('../images/meatballs.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
     height: 75vh;
 }
 
