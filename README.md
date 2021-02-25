@@ -1,12 +1,12 @@
-# Agustarello - Restaurant in Rome 
+# [Agustarello - Restaurant in Rome](https://acommentucci.github.io/Restaurant-Agustarello/)
 
 # Intro
 This is a website for a restaurant in Rome. It's my father's restaurant, it used to be my grandfather's restaurant. A long tradition of genuine food and
 typical cuisine... But he had never had a website.
 
-![Image](#)
+![Am I responsive preview](assets/wireframes/am-i-responsive-preview.png)
 
-#### A live demo can be found [here](#)
+#### A live demo can be found [here](https://acommentucci.github.io/Restaurant-Agustarello/)
 
 # Table of content
 - Intro
@@ -81,9 +81,11 @@ In the mobile and tablet version there is a fifth page, a full-screen navigation
 In the desktop version ther is a fixed navigation bar on top:
 - [Menu Desktop](./assets/wireframes/menu-desktop.png)
 ## **Surface**
-color palette
-Typography
-Images
+As for the choice of colors, I used a burgundy red and a light yellow which, in addition to being the colors of the coat of arms of the city of Rome, are also shades that go well with food and catering. For the choice of the right gradation I helped myself with [Coolors](https://coolors.co/).
+
+I chose "Rock Salt" for the main titles and "Lobster" for the paragraphs and the navigation bar both imported into the css file via [GoogleFonts](https://fonts.google.com/). Both allow for a fair compromise between aesthetics and clarity. I chose "rock salt" in particular because it conveys a sense of "homemade".
+
+All images are owned by the author and have been resized and edited with [Adobe](https://www.adobe.com/ie/photoshop/online/resize-image.html) and compressed with [Tinypng](https://tinypng.com/).
 
 # Technologies Used
 ## **Languages**
@@ -93,13 +95,15 @@ Images
 - [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
    - Bootstrap is a free front-end framework used for responsiveness and styling.
 - [Hover.css:](https://ianlunn.github.io/Hover/)
-   - Hover.css was used for the followig effect...
+   - Hover.css was used for the navbar and the social icons.
+- [Animate.css:](https://animate.style/)
+   - Animate.css was used for the animation in the home page.
 - [Google Fonts:](https://fonts.google.com/)
-   - Google fonts were used to import...
+   - Google fonts were used to import "Rock Salt" and "Lobster" fonts.
 - [Font Awesome:](https://fontawesome.com/)
-   - used for providing social media icons...
+   - used for providing social media icons and "back-to-the-top arrow"
 - [jQuery:](https://jquery.com/)
-   - jQuery came with Bootstrap to make...
+   - jQuery came with Bootstrap to make the Carousel in the "Menu" section.
 - [Git:](https://git-scm.com/)
    - Version Control.
 - [GitHub:](https://github.com/)
@@ -107,16 +111,14 @@ Images
 - [GitPod:](https://gitpod.io/)
    - Online IDE used with Code Institute Template.
 - [Balsamiq:](https://balsamiq.com/)
-   - Design the [wireframes](#).
-- [Gimp:](https://www.gimp.org/)
-   - Image Manipulation Program, used to edit photos.
+   - Design the [wireframes](https://github.com/acommentucci/Restaurant-Agustarello/tree/master/assets/wireframes).
 - [Am I Responsive?](http://ami.responsivedesign.is/)
    - Check the responsiveness of the website.
 - [Coolors](https://coolors.co/)
     - Color scheme generator.
 ## **Other Resources**
 - [YouTube](https://www.Youtube.com)
-- [W3Schools](https://www.w3schools.com/) Online web tutorial
+- [W3Schools](https://www.w3schools.com/)
 - [Stack-Overlflow](https://stackoverflow.com/)
 - [CSS-Tricks](https://css-tricks.com/)
 
