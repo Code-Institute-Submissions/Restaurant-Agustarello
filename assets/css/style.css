@@ -94,6 +94,11 @@ a:active:focus {
     text-decoration: none;
 }
 
+.border-par{
+    border: solid 2px;
+    border-radius: 10%;
+    padding: 16px;
+}
 /*
 ============================================= 
 Images
@@ -446,6 +451,10 @@ Navbar
     display: inline;
     font-size: 2rem;
     margin-right: 1rem;
+}
+
+.social-links a i{
+    color: var(--clr-secondary);
 }
 
 #contact .direction{
