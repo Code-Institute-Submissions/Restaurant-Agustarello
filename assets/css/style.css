@@ -18,7 +18,6 @@ Variables
     --clr-primary: #4B0101;
     --clr-secondary: #F8E793;
     --clr-background:#E0E0E2;
-    --clr-background-2: #F8E793;
     --ff-title: "Rock Salt", serif;
     --ff-paragraph: "Lobster", cursive;
 }
@@ -50,11 +49,6 @@ body {
     margin-bottom: 110px;
 }
 
-
-.background-dark{
-    background-color: var(--clr-background-2);
-}
-
 h1,
 h2,
 h3 {  
@@ -69,8 +63,6 @@ h1 {
   font-size: 1.3rem;
   text-transform: uppercase;
 }
-
-
 
 h3 {
   font-size: 2rem;
@@ -94,23 +86,13 @@ a:active:focus {
     text-decoration: none;
 }
 
-.border-par{
-    border: solid 2px;
-    border-radius: 10%;
-    padding: 16px;
-}
-/*
-============================================= 
-Images
-=============================================
-*/
-
-.fixed-back {
-    background: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+@media screen and (min-width: 992px){
+    .border-par{
+        border-bottom: solid 10px;
+        border-top: double 10px;
+        border-radius: 10%;
+        padding: 16px;
+    }
 }
 
 /*
@@ -262,6 +244,7 @@ Home
 .jumbotron {
   background-color: transparent;
 }
+
 .jumbotron h2 span{
     display: inline-block;
 }
@@ -296,6 +279,7 @@ h2.lead{
         font-size: 2.5rem !important;
     }
 }
+
 /*
 =============================================
 Navbar
@@ -314,7 +298,6 @@ Navbar
     margin-bottom: 1rem;
 }
 
-
 .nav-item a {
   color: var(--clr-secondary);
 }
@@ -323,7 +306,6 @@ Navbar
     font-family: var(--ff-paragraph);
     color: var(--clr-secondary);
     text-transform: capitalize;
-    font-weight: 800;
     border: 1px solid var(--clr-secondary);
     padding: 0 3px 0 3px;
 }
@@ -398,19 +380,28 @@ Navbar
 }
 
 #story{
-    scroll-margin-top: 40px;
+    scroll-margin-top: 35px;
 }
 
 #story span{
     font-style: italic;
 }
+
 /*
 =============================================
 "Menu"
 =============================================
 */
 #menu{
-    scroll-margin-top: 40px;
+    scroll-margin-top: 60px;
+}
+
+#menu h2{
+    text-transform: uppercase;
+}
+
+#menu span{
+    color: var(--clr-primary);
 }
 
 .menu-link{
@@ -420,6 +411,15 @@ Navbar
 
 .menu-link i{
     margin-left: 5px;
+}
+
+/*change carousel arrow color - solution from here https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel*/
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F8E793' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F8E793' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 /*
 =============================================
@@ -461,6 +461,12 @@ Navbar
     padding-top: 10px;
 }
 
+@media screen and (min-width: 768px){
+    .address{
+        font-size: 1.5em;
+    }
+}
+
 .map{
     height: 50vh;
     width: auto;
@@ -493,8 +499,6 @@ Navbar
     }
 }
 
-
-
 .footer ul{
     list-style: none;
     margin: 8px;
@@ -507,8 +511,8 @@ Navbar
 
 .footer-social-icon{
     color: var(--clr-primary);
-    font-size: 0.7em;
     margin-right: 10px;
+    font-size: 2em;
 }
 
 .footer p{

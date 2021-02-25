@@ -171,3 +171,5 @@ font-size bigger screen - sostituion rem with em
 
 image smaller than col size on xl screen solution w-100 class
 https://stackoverflow.com/questions/36933107/stretch-image-to-fit-full-container-width-bootstrap
+
+w3school css border
