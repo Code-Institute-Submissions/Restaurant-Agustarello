@@ -60,7 +60,7 @@ h3 {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -250,9 +250,11 @@ Home
 }
 
 h2.lead{
-    font-size: 0.5rem !important;
+    font-size: 0.8rem !important;
     text-transform: uppercase;
     margin-top: 1rem;
+    line-height: 2;
+    font-weight: 600;
 }
 @media screen and (min-width: 768px){
     h1{
@@ -497,22 +499,6 @@ Navbar
     .footer {
         font-size: 0.7rem
     }
-}
-
-.footer ul{
-    list-style: none;
-    margin: 8px;
-    padding: 0;
-}
-
-.footer ul li{
-    display: inline;
-}
-
-.footer-social-icon{
-    color: var(--clr-primary);
-    margin-right: 10px;
-    font-size: 2em;
 }
 
 .footer p{
