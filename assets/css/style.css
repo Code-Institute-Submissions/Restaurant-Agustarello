@@ -477,16 +477,15 @@ Navbar
         font-size: 1.5rem;
         color: var(--clr-secondary)
     }
-
-}
-.color-overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: black;
-   opacity: 0.6;
+    .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    }
 }
 /*change carousel arrow color - solution from here https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel*/
 .carousel-control-prev-icon {
