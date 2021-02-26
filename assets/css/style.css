@@ -444,7 +444,9 @@ Navbar
 }
 
 #menu h2{
+    font-size: 3rem;
     text-transform: uppercase;
+    font-weight: 800;
 }
 
 #menu span{
@@ -454,6 +456,7 @@ Navbar
 .menu-link{
     font-weight: 800;
     color: var(--clr-primary);
+    border: solid 2px;
 }
 
 .menu-link i{
@@ -469,7 +472,6 @@ Navbar
     .menu-link{
         font-size: 2rem;
         color: var(--clr-secondary);
-        border: solid 2px;
     }
     #menu p{
         font-size: 1.5rem;
@@ -564,6 +566,7 @@ Navbar
   height: 110px;
   font-size: 0.5em;
   line-height: 1;
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 768px){
