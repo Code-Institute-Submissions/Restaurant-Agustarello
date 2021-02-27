@@ -297,6 +297,11 @@ h2.lead{
     line-height: 2;
     font-weight: 600;
 }
+@media screen and (max-width: 360px){
+    h1{
+        font-size: 1.3rem
+    }
+}
 @media screen and (min-width: 768px){
     h1{
         font-size: 3rem !important;
@@ -340,6 +345,12 @@ Navbar
 .nav-item{
     margin-bottom: 1rem;
 }
+@media screen and (max-height: 567px){
+    .nav-item{
+        margin-bottom: 0;
+    }
+}
+
 
 .nav-item a {
   color: var(--clr-secondary);
@@ -569,11 +580,22 @@ Navbar
 }
 
 @media screen and (min-width: 768px){
-    .footer {
+    .footer p{
         font-size: 0.7rem
     }
 }
 
+@media screen and (min-width: 992px){
+    .footer p{
+        font-size: 0.9rem
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .footer p{
+        font-size: 1.2rem
+    }
+}
 .footer p{
     margin-bottom: 10px;
 }

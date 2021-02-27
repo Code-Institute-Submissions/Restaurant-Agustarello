@@ -175,3 +175,9 @@ image smaller than col size on xl screen solution w-100 class
 https://stackoverflow.com/questions/36933107/stretch-image-to-fit-full-container-width-bootstrap
 
 w3school css border
+
+
+Testing
+After testing my work on responsive design control, I noticed that on 360px screens the main title was being cut off. I found that the expanded navigation bar on screens below 580px in height cropped social icons. I solved both problems with specific media queries
+
+I also noticed that in some types of notebook screens the footer content went outside the margin. I used media queries to create three different footer font sizes at 768px, 992px and 1440px.
