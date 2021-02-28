@@ -45,17 +45,12 @@ commissioned by **Opentable**, over 80% of potential customers visit a restauran
 On the data that emerged from the research and on my personal working experience I based the user stories.
 ## **User Stories**
   - **As a customer:**
-    - I want to book a table by the restaurant website so I can check tha availabity of timing withouth calling the place
+    - I want to book a table by the restaurant website so I can check the availabity of timing withouth calling the place
     - I want to check out a menu so I can see what kind of cuisine the restaurant is and how much is expensive
     - I want to get direction for the restaurant so I can decide wich way is the best to get there (car or public transport)
     - I want to see some picture of the place and the food so I can get an early idea of the place
     - I want to see some reviews from other customers who already been there because I trust of the reviews in internet
 
-  - **As the owner:** 
-    - I want to have a better web presence so I can be found when people looking for my restaurant.
-    - I want to discourage phone calls so I can use my time otherways than answering phone calls.
-    - I want to explain how to get to the restaurant, by public transport or car and where to park close to the restaurant so customers dosn't change their mind.
-    - I want to introduce the history of the place and the type of traditional cuisine because I'm very proud of it.
 ## **Strategy**
 The website was designed to meet the needs of the owner and the consumers. The main purpose is to increase the online presence of the business which allows 
 potential customers to obtain information about the restaurant. The owner wanted to manage his online presence directly and not only through review sites 

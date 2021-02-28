@@ -1,4 +1,28 @@
 # Testing
+## User stories
+**As a customer:**
+    
+    - I want to book a table by the restaurant website so I can check the availabity of timing withouth calling the place.
+
+that is a feature to implement in the future.
+
+    - I want to check out a menu so I can see what kind of cuisine the restaurant is and how much is expensive
+
+Once the site is open, I can navigate through the navigation bar to the menu section and open the link "take a look at the menu" and view menus and prices
+    
+    - I want to get direction for the restaurant so I can decide wich way is the best to get there (car or public transport)
+
+I click on the contact section where there are directions on how to reach the restaurant by car or public transport as well as the frame of google maps with the location of the restaurant clearly indicated
+    
+    
+    - I want to see some picture of the place and the food so I can get an early idea of the place
+
+In the menu section I see a series of photos of the most characteristic dishes and scrolling through the site photos of the interiors to get an idea of ​​the place
+
+    - I want to see some reviews from other customers who already been there because I trust of the reviews in internet
+
+In the contact section there is the tripadvisor link that connects directly to the restaurant page on the reviews aggregator. Also through the navigation bar I can see the social links of the activity and check the reviews on facebook and comments on instagram.
+
 ## Links
 - I checked that each navbar link worked correctly, in both the mobile navbar and the expanded desktop navbar.
 - I checked that the links of the social pages worked correctly both those in the navbar and those in the contacts section.
@@ -34,9 +58,40 @@ I also noticed that in some types of notebook screens the footer content went ou
 
 ## Accessibility
 I tested the color choice of the site with [a11y](https://color.a11y.com/),  a Color Contrast Accessibility Validator,  and the test result was very positive.
-![color contrast validator](Readme-img/color-contrast-validator.png)
+![color contrast validator](Readme-img/color-contrast-validator.png).
 
 ## HTML validator
-After testing the site, the report reported 5 warnings and 1 error.
+I ran [HTML Validator](https://validator.w3.org/) test. After testing the site, the report reported 5 warnings and 1 error.
 ![html validator screenshot](Readme-img/html-validator.png)
-I considered the warnings to be unimportant and fixed the reported error by adding name attribute to `<map>`
+I considered the warnings to be unimportant and fixed the reported error by adding name attribute to `<map>`.
+
+## CSS validator
+The [CSS validator](https://jigsaw.w3.org/css-validator/) did not find any errors.
+
+## CSS Autoprefixer
+Ran CSS through [Autoprefixer](https://autoprefixer.github.io/) and copied new CSS code back into style.css doc.
+
+## Grammar and spelling
+ran the readme.md and the testing.md through [online-spellcheck](https://www.online-spellcheck.com/).
+
+## Lighthouse
+The first test carried out gave the following results:
+
+- ### Performance: **65**
+
+- ### Accessibility: **98**
+
+- ### Best Practices: **69**
+
+- ### SEO: **92**
+
+After making the required corrections, a new test gave the following results:
+
+- ### Performance: **96**
+
+- ### Accessibility: **100**
+
+- ### Best Practices: **86**
+
+- ### SEO: **100**
+
