@@ -45,9 +45,9 @@ commissioned by **Opentable**, over 80% of potential customers visit a restauran
 On the data that emerged from the research and on my personal working experience I based the user stories.
 ## **User Stories**
   - **As a customer:**
-    - I want to book a table by the restaurant website so I can check the availabity of timing withouth calling the place
+    - I want to book a table by the restaurant website so I can check the availability of timing without calling the place
     - I want to check out a menu so I can see what kind of cuisine the restaurant is and how much is expensive
-    - I want to get direction for the restaurant so I can decide wich way is the best to get there (car or public transport)
+    - I want to get direction for the restaurant so I can decide which way is the best to get there (car or public transport)
     - I want to see some picture of the place and the food so I can get an early idea of the place
     - I want to see some reviews from other customers who already been there because I trust of the reviews in internet
 
@@ -79,7 +79,7 @@ In the mobile and tablet version there is a fifth page, a full-screen navigation
 - [Menu Tablet](./assets/wireframes/menu-tablet.png)
 - [Menu Mobile](./assets/wireframes/menu-mobile.png)
 
-In the desktop version ther is a fixed navigation bar on top:
+In the desktop version there is a fixed navigation bar on top:
 - [Menu Desktop](./assets/wireframes/menu-desktop.png)
 ## **Surface**
 ![color palette](/assets/images/palette.png)
@@ -160,13 +160,13 @@ https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4
 
 -  **download the menu with download attribute or not**:While designing the link for the restaurant .pdf menu I wondered if I should use a specific html tag. I discovered the existence of `<download>` but I didn't use it as this tag refers to a file to download while on my site the menu, although .pdf, is displayed in a new tab, not downloaded.
 
--  **diplay the navbar full-screen**:Changing the navbar in such a way that once opened on the small screen it was visible in full screen while the navbar itself remained contained at the top as a vertical bar in the larger screens wwas done by modifying `navbar-nav {height:100vh;}`
+-  **display the navbar full-screen**:Changing the navbar in such a way that once opened on the small screen it was visible in full screen while the navbar itself remained contained at the top as a vertical bar in the larger screens was done by modifying `navbar-nav {height:100vh;}`
 
 -  **Scrooll Behavior**: Having designed a vertical scrolling site, I searched the internet for ways to make the design as good as possible.
 `html {scroll-behavior:smooth;}`allows you to move smoothly between the various sections. `scroll-margin-top` property allows you to change the point of arrival of the links as needed.
 
 # Testing
-[here](testing.md) to see the testing chapter.
+[Here](testing.md) to see the testing chapter.
 
 # Deployment
 Deployment
@@ -193,7 +193,7 @@ All text content is self-written
 -  [Katie Frances - Guide to customising the Bootstrap 4 Navbar](https://medium.com/coder-grrl/the-guide-to-customising-the-bootstrap-4-navbar-i-wish-id-had-6-months-ago-7bc6ce0e3c71) Article explaining how Bootstrap navbar works.
 -  [Back to the top button](https://moderncss.dev/pure-css-smooth-scroll-back-to-top/) My mentor directed me to this article to create a "bacl-to-the-top" button to use in my project. Useful and clear.
 -  [Media Query CSS tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) Especially useful in the beginning when I didn't remember the break-points and the right syntax of the media queries.
--  [W3schools.com](https://www.w3schools.com/)A list of all the times I've used w3schools to solve a doubt would be endless ... In particular he was helpful in designing the border for the text paragraphs.
+-  [W3schools.com](https://www.w3schools.com/) A list of all the times I've used w3schools to solve a doubt would be endless ... In particular he was helpful in designing the border for the text paragraphs.
 -  [Bootstrap Examples](https://getbootstrap.com/docs/4.6/examples/) It was very useful for me to analyze the models through google devtools.
 -  The following projects by Code Institute students:
       - https://github.com/kescardoso/yinnsound

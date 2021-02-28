@@ -2,7 +2,7 @@
 ## User stories
 **As a customer:**
     
-    - I want to book a table by the restaurant website so I can check the availabity of timing withouth calling the place.
+    - I want to book a table by the restaurant website so I can check the availability of timing without calling the place.
 
 that is a feature to implement in the future.
 
@@ -10,7 +10,7 @@ that is a feature to implement in the future.
 
 Once the site is open, I can navigate through the navigation bar to the menu section and open the link "take a look at the menu" and view menus and prices
     
-    - I want to get direction for the restaurant so I can decide wich way is the best to get there (car or public transport)
+    - I want to get direction for the restaurant so I can decide which way is the best to get there (car or public transport)
 
 I click on the contact section where there are directions on how to reach the restaurant by car or public transport as well as the frame of google maps with the location of the restaurant clearly indicated
     
