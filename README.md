@@ -4,7 +4,7 @@
 This is a website for a restaurant in Rome. It's my father's restaurant, it used to be my grandfather's restaurant. A long tradition of genuine food and
 typical cuisine... But he had never had a website.
 
-![Am I responsive preview](assets/wireframes/am-i-responsive-preview.png)
+![Am I responsive preview](assets/readme-img/am-i-responsive-preview.png)
 
 #### A live demo can be found [here](https://acommentucci.github.io/Restaurant-Agustarello/)
 
@@ -82,7 +82,7 @@ In the mobile and tablet version there is a fifth page, a full-screen navigation
 In the desktop version there is a fixed navigation bar on top:
 - [Menu Desktop](./assets/wireframes/menu-desktop.png)
 ## **Surface**
-![color palette](/assets/images/palette.png)
+![color palette](assets/readme-img/palette.png)
 As for the choice of colors, I used a burgundy red and a light yellow which, in addition to being the colors of the coat of arms of the city of Rome, are also shades that go well with food and catering. For the choice of the right gradation I helped myself with [Coolors](https://coolors.co/).
 
 I chose "Rock Salt" for the main titles and "Lobster" for the paragraphs and the navigation bar both imported into the css file via [GoogleFonts](https://fonts.google.com/). Both allow for a fair compromise between aesthetics and clarity. I chose "rock salt" in particular because it conveys a sense of "homemade".
