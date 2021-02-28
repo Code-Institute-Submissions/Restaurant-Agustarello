@@ -34,7 +34,6 @@ Global CSS
 }
 
 html {
-    /*navbar navigation*/
     scroll-behavior: smooth;
     min-height: 100%;
     position: relative;
@@ -606,30 +605,18 @@ Navbar
 =============================================
 */
 .back-to-top-wrapper {
-  /* // uncomment to visualize "track" */
   position: absolute;
   top: 100vh;
   right: 0.25rem;
-  /* Optional, extends the final link into the 
-  footer at the bottom of the page
-  Set to `0` to stop at the end of `main` */
   bottom: 0em;
-  /* Required for best support in browsers not supporting `sticky` */
   width: 3em;
-  /* Disable interaction with this element */
   pointer-events: none;
 }
 
 .back-to-top-link {
-    /* fixed` is fallback when `sticky` not supported */
     position: fixed;
-    /* preferred positioning, requires prefixing for most support, and not    supported on Safari
-    @link https://caniuse.com/#search=position%3A%20sticky */
     position: sticky;
-    /* reinstate clicks */
     pointer-events: all;
-    /* achieves desired positioning within the viewport */
-    /* relative to the top of the viewport once `sticky` takes over, or always if     `fixed` fallback is used */
     top: calc(100vh - 4rem);
     padding: 5px 1px 10px 6px;
     border-top: solid 3px;
@@ -650,11 +637,3 @@ Navbar
 .back-to-top-link:hover{
     color: var(--clr-primary);
 }
-
-
-/*
-=============================================
-"IT"
-=============================================
-*/
-
